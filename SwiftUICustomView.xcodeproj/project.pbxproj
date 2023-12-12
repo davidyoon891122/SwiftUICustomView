@@ -14,6 +14,15 @@
 		AD9F79CB2B2690D30082A296 /* SwiftUICustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79CA2B2690D30082A296 /* SwiftUICustomViewTests.swift */; };
 		AD9F79D52B2690D30082A296 /* SwiftUICustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79D42B2690D30082A296 /* SwiftUICustomViewUITests.swift */; };
 		AD9F79D72B2690D30082A296 /* SwiftUICustomViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79D62B2690D30082A296 /* SwiftUICustomViewUITestsLaunchTests.swift */; };
+		AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79E32B26910A0082A296 /* LottieView.swift */; };
+		AD9F79E72B2691280082A296 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79E62B2691280082A296 /* SnapKit */; };
+		AD9F79E92B2691280082A296 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79E82B2691280082A296 /* SnapKit-Dynamic */; };
+		AD9F79EC2B2691540082A296 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79EB2B2691540082A296 /* Lottie */; };
+		AD9F79F02B26922E0082A296 /* free.json in Resources */ = {isa = PBXBuildFile; fileRef = AD9F79EF2B26922E0082A296 /* free.json */; };
+		AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79F22B2692880082A296 /* CustomDivider.swift */; };
+		AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A122B26DD550082A296 /* OptionalTestView.swift */; };
+		AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */; };
+		AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A172B26DF590082A296 /* AccountModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,12 @@
 		AD9F79D02B2690D30082A296 /* SwiftUICustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9F79D42B2690D30082A296 /* SwiftUICustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomViewUITests.swift; sourceTree = "<group>"; };
 		AD9F79D62B2690D30082A296 /* SwiftUICustomViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD9F79E32B26910A0082A296 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		AD9F79EF2B26922E0082A296 /* free.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = free.json; path = ../../../Downloads/free.json; sourceTree = "<group>"; };
+		AD9F79F22B2692880082A296 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		AD9F7A122B26DD550082A296 /* OptionalTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTestView.swift; sourceTree = "<group>"; };
+		AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewModel.swift; sourceTree = "<group>"; };
+		AD9F7A172B26DF590082A296 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9F79E72B2691280082A296 /* SnapKit in Frameworks */,
+				AD9F79E92B2691280082A296 /* SnapKit-Dynamic in Frameworks */,
+				AD9F79EC2B2691540082A296 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +115,9 @@
 				AD9F79B92B2690D20082A296 /* SwiftUICustomViewApp.swift */,
 				AD9F79BB2B2690D20082A296 /* ContentView.swift */,
 				AD9F79BD2B2690D30082A296 /* Assets.xcassets */,
+				AD9F79EF2B26922E0082A296 /* free.json */,
 				AD9F79BF2B2690D30082A296 /* Preview Content */,
+				AD9F79F12B2692750082A296 /* view */,
 			);
 			path = SwiftUICustomView;
 			sourceTree = "<group>";
@@ -127,6 +147,26 @@
 			path = SwiftUICustomViewUITests;
 			sourceTree = "<group>";
 		};
+		AD9F79F12B2692750082A296 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F79E32B26910A0082A296 /* LottieView.swift */,
+				AD9F79F22B2692880082A296 /* CustomDivider.swift */,
+				AD9F7A142B26DD620082A296 /* Optional */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AD9F7A142B26DD620082A296 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F7A122B26DD550082A296 /* OptionalTestView.swift */,
+				AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */,
+				AD9F7A172B26DF590082A296 /* AccountModel.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +183,11 @@
 			dependencies = (
 			);
 			name = SwiftUICustomView;
+			packageProductDependencies = (
+				AD9F79E62B2691280082A296 /* SnapKit */,
+				AD9F79E82B2691280082A296 /* SnapKit-Dynamic */,
+				AD9F79EB2B2691540082A296 /* Lottie */,
+			);
 			productName = SwiftUICustomView;
 			productReference = AD9F79B62B2690D20082A296 /* SwiftUICustomView.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +260,10 @@
 				Base,
 			);
 			mainGroup = AD9F79AD2B2690D20082A296;
+			packageReferences = (
+				AD9F79E52B2691280082A296 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AD9F79EA2B2691540082A296 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = AD9F79B72B2690D20082A296 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +282,7 @@
 			files = (
 				AD9F79C12B2690D30082A296 /* Preview Assets.xcassets in Resources */,
 				AD9F79BE2B2690D30082A296 /* Assets.xcassets in Resources */,
+				AD9F79F02B26922E0082A296 /* free.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
+				AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */,
+				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
+				AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */,
 				AD9F79BC2B2690D20082A296 /* ContentView.swift in Sources */,
 				AD9F79BA2B2690D20082A296 /* SwiftUICustomViewApp.swift in Sources */,
+				AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +643,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD9F79E52B2691280082A296 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		AD9F79EA2B2691540082A296 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD9F79E62B2691280082A296 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD9F79E52B2691280082A296 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AD9F79E82B2691280082A296 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD9F79E52B2691280082A296 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		AD9F79EB2B2691540082A296 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD9F79EA2B2691540082A296 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD9F79AE2B2690D20082A296 /* Project object */;
 }
