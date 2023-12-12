@@ -150,8 +150,8 @@
 		AD9F79F12B2692750082A296 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				AD9F79E32B26910A0082A296 /* LottieView.swift */,
-				AD9F79F22B2692880082A296 /* CustomDivider.swift */,
+				ADF0D72E2B281CA900581108 /* Lottie */,
+				ADF0D72D2B281CA200581108 /* Divider */,
 				AD9F7A142B26DD620082A296 /* Optional */,
 			);
 			path = view;
@@ -165,6 +165,22 @@
 				AD9F7A172B26DF590082A296 /* AccountModel.swift */,
 			);
 			path = Optional;
+			sourceTree = "<group>";
+		};
+		ADF0D72D2B281CA200581108 /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F79F22B2692880082A296 /* CustomDivider.swift */,
+			);
+			path = Divider;
+			sourceTree = "<group>";
+		};
+		ADF0D72E2B281CA900581108 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				AD9F79E32B26910A0082A296 /* LottieView.swift */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
