@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            OptionalTestView(viewModel: OptionalViewModel())
+            ProtocolView(viewModel: ProtocolViewModel(coinItems: [], service: CoinService()))
         }
         .padding()
     }
