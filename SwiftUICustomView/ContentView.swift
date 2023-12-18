@@ -10,9 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            ProtocolView(viewModel: ProtocolViewModel(coinItems: [], service: CoinService()))
+            CarousalView(itemHeight: 500, views: [
+                AnyView(imageView(name: "sample")),
+                AnyView(imageView(name: "sample2")),
+                AnyView(imageView(name: "sample")),
+                AnyView(imageView(name: "sample2")),
+                AnyView(imageView(name: "sample")),
+                AnyView(imageView(name: "sample2")),
+                AnyView(imageView(name: "sample")),
+                AnyView(imageView(name: "sample2")),
+            ])
         }
         .padding()
+    }
+    
+    func imageView(name: String) -> some View {
+        Image(name)
+            .aspectRatio(contentMode: .fill)
     }
 }
 
