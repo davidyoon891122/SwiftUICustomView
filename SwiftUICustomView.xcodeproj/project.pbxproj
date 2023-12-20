@@ -40,7 +40,8 @@
 		AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A122B26DD550082A296 /* OptionalTestView.swift */; };
 		AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */; };
 		AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A172B26DF590082A296 /* AccountModel.swift */; };
-		ADD316932B2FC29D003859D4 /* CarousalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD316922B2FC29D003859D4 /* CarousalView.swift */; };
+		ADB9A93B2B32C03F0052DBD4 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9A93A2B32C03F0052DBD4 /* CustomPickerView.swift */; };
+		ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD316922B2FC29D003859D4 /* CarouselView.swift */; };
 		ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0D72F2B281CF500581108 /* ProtocolView.swift */; };
 		ADF0D7332B281D1E00581108 /* ProtocolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0D7322B281D1E00581108 /* ProtocolViewModel.swift */; };
 		ADF0D7352B281F1C00581108 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0D7342B281F1C00581108 /* CoinModel.swift */; };
@@ -102,7 +103,8 @@
 		AD9F7A122B26DD550082A296 /* OptionalTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTestView.swift; sourceTree = "<group>"; };
 		AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewModel.swift; sourceTree = "<group>"; };
 		AD9F7A172B26DF590082A296 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
-		ADD316922B2FC29D003859D4 /* CarousalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalView.swift; sourceTree = "<group>"; };
+		ADB9A93A2B32C03F0052DBD4 /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		ADD316922B2FC29D003859D4 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		ADF0D72F2B281CF500581108 /* ProtocolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolView.swift; sourceTree = "<group>"; };
 		ADF0D7322B281D1E00581108 /* ProtocolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewModel.swift; sourceTree = "<group>"; };
 		ADF0D7342B281F1C00581108 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
@@ -231,7 +233,8 @@
 				AD9F7A142B26DD620082A296 /* Optional */,
 				ADF0D7312B281CFB00581108 /* ProtocolView */,
 				AD9590EA2B29350C0028EC34 /* Button */,
-				ADD316922B2FC29D003859D4 /* CarousalView.swift */,
+				ADB9A93C2B32C0440052DBD4 /* Carousel */,
+				ADB9A93A2B32C03F0052DBD4 /* CustomPickerView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -244,6 +247,14 @@
 				AD9F7A172B26DF590082A296 /* AccountModel.swift */,
 			);
 			path = Optional;
+			sourceTree = "<group>";
+		};
+		ADB9A93C2B32C0440052DBD4 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				ADD316922B2FC29D003859D4 /* CarouselView.swift */,
+			);
+			path = Carousel;
 			sourceTree = "<group>";
 		};
 		ADF0D72D2B281CA200581108 /* Divider */ = {
@@ -462,7 +473,7 @@
 				AD9590FA2B2938580028EC34 /* ToggleIconButton.swift in Sources */,
 				AD9591002B2939C70028EC34 /* RadioButton.swift in Sources */,
 				ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */,
-				ADD316932B2FC29D003859D4 /* CarousalView.swift in Sources */,
+				ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */,
 				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
@@ -474,6 +485,7 @@
 				AD9590FE2B29392D0028EC34 /* DashedBorderButton.swift in Sources */,
 				AD9F79BC2B2690D20082A296 /* ContentView.swift in Sources */,
 				AD95910A2B293DDE0028EC34 /* ButtonWithCustomEffect.swift in Sources */,
+				ADB9A93B2B32C03F0052DBD4 /* CustomPickerView.swift in Sources */,
 				ADF0D73B2B28257D00581108 /* CoinService.swift in Sources */,
 				AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */,
 				AD9590F22B2936EA0028EC34 /* TextWithImageButton.swift in Sources */,

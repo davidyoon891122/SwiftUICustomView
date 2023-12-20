@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            CarousalView(itemHeight: 500, views: [
+            CarouselView(itemHeight: 500, views: [
                 AnyView(imageView(name: "sample")),
                 AnyView(imageView(name: "sample2")),
                 AnyView(imageView(name: "sample")),

@@ -1,5 +1,5 @@
 //
-//  CarousalView.swift
+//  CarouselView.swift
 //  SwiftUICustomView
 //
 //  Created by Davidyoon on 12/18/23.
@@ -30,7 +30,7 @@ enum DragState {
     }
 }
 
-struct CarousalView: View {
+struct CarouselView: View {
     @GestureState private var dragState = DragState.inactive
     @State var carousalLocation = 0
     
