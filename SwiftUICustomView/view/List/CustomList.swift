@@ -14,33 +14,39 @@ struct CustomList: View {
     
     var body: some View {
         VStack {
-            List {
-                ForEach(viewModel.customListData.indices, id: \.self) { index in
-                    Text(viewModel.customListData[index].title)
-                        .onAppear {
-                            if viewModel.shouldFetchNextPage(index) && !viewModel.customListData.isEmpty {
-                                currentPageNumber += 1
-                                viewModel.fetchData(page: currentPageNumber)
-                            }
+            Group {
+                if viewModel.customListData.isEmpty {
+                    ContentUnavailableView("Looks like the data from the list is currently not available", systemImage: "list.bullet")
+                } else {
+                    List {
+                        ForEach(viewModel.customListData.indices, id: \.self) { index in
+                            Text(viewModel.customListData[index].title)
+                                .onAppear {
+                                    if viewModel.shouldFetchNextPage(index) && !viewModel.customListData.isEmpty {
+                                        currentPageNumber += 1
+                                        viewModel.fetchData(page: currentPageNumber)
+                                    }
+                                }
+                                .swipeActions(edge: .leading) {
+                                    Button {
+                                        viewModel.customListData[index].toggleIsCompleted()
+                                    } label: {
+                                        Image(systemName: viewModel.customListData[index].isCompleted ? "checkmark.circle.fill" : "checkmark")
+                                            .resizable()
+                                    }.tint(viewModel.customListData[index].isCompleted ? .green : .secondary)
+                                    
+                                    Button {
+                                        viewModel.customListData[index].toggleIsDownloaded()
+                                    } label: {
+                                        Image(systemName: "square.and.arrow.down")
+                                            .resizable()
+                                    }.tint(viewModel.customListData[index].isDownloaded ? .blue : .secondary)
+                                }
                         }
-                        .swipeActions(edge: .leading) {
-                            Button {
-                                viewModel.customListData[index].toggleIsCompleted()
-                            } label: {
-                                Image(systemName: viewModel.customListData[index].isCompleted ? "checkmark.circle.fill" : "checkmark")
-                                    .resizable()
-                            }
-                            .tint(viewModel.customListData[index].isCompleted ? .green : .secondary)
-                            Button {
-                                viewModel.customListData[index].toggleIsDownloaded()
-                            } label: {
-                                Image(systemName: "square.and.arrow.down")
-                                    .resizable()
-                            }.tint(viewModel.customListData[index].isDownloaded ? .blue : .secondary)
-                        }
+                        .onDelete(perform: deleteItems)
+                        .onMove(perform: moveItems)
+                    }
                 }
-                .onDelete(perform: deleteItems)
-                .onMove(perform:moveItems)
             }
             .onAppear {
                 if viewModel.customListData.isEmpty {
@@ -48,6 +54,7 @@ struct CustomList: View {
                     viewModel.fetchData(page: currentPageNumber)
                 }
             }
+            
             
             HStack {
                 Spacer()
