@@ -17,7 +17,9 @@ struct CustomPickerView: View {
                 Text("\(selectedCatogory)")
                 
                 Button(action: {
-                    isOpenPicker.toggle()
+                    withAnimation {
+                        isOpenPicker.toggle()
+                    }
                 }, label: {
                     Text("Open Picker")
                 })
@@ -30,7 +32,9 @@ struct CustomPickerView: View {
                     HStack {
                         Spacer()
                         Button(action: {
-                            isOpenPicker.toggle()
+                            withAnimation {
+                                isOpenPicker.toggle()
+                            }
                         }, label: {
                             Text("Done")
                         })
@@ -43,9 +47,11 @@ struct CustomPickerView: View {
                         Text("Chinese")
                             .tag("Chinese")
                     }
+                    .frame(height: 216)
                     .pickerStyle(.wheel)
                 }
                 .background(.secondary)
+                .transition(.move(edge: .bottom))
             }
         }
     }
