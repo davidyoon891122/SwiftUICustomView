@@ -7,62 +7,53 @@
 
 import SwiftUI
 
-struct CustomListData: Identifiable {
-    let id = UUID()
-    let title: String
-    var isCompleted: Bool = false
-    var isDownloaded: Bool = false
-    
-    mutating func toggleIsCompleted() {
-        isCompleted.toggle()
-    }
-    
-    mutating func toggleIsDownloaded() {
-        isDownloaded.toggle()
-    }
-}
-
-
 struct CustomList: View {
     
-    @State var customListData: [CustomListData] = [
-        CustomListData(title: "One"),
-        CustomListData(title: "Two"),
-        CustomListData(title: "Three"),
-        CustomListData(title: "Four"),
-        CustomListData(title: "Five")
-    ]
+    @ObservedObject var viewModel = FakeWebService()
+    @State private var currentPageNumber = 0
     
     var body: some View {
         VStack {
             List {
-                ForEach(customListData.indices, id: \.self) { index in
-                    Text(customListData[index].title)
+                ForEach(viewModel.customListData.indices, id: \.self) { index in
+                    Text(viewModel.customListData[index].title)
+                        .onAppear {
+                            if viewModel.shouldFetchNextPage(index) && !viewModel.customListData.isEmpty {
+                                currentPageNumber += 1
+                                viewModel.fetchData(page: currentPageNumber)
+                            }
+                        }
                         .swipeActions(edge: .leading) {
                             Button {
-                                customListData[index].toggleIsCompleted()
+                                viewModel.customListData[index].toggleIsCompleted()
                             } label: {
-                                Image(systemName: customListData[index].isCompleted ? "checkmark.circle.fill" : "checkmark")
+                                Image(systemName: viewModel.customListData[index].isCompleted ? "checkmark.circle.fill" : "checkmark")
                                     .resizable()
                             }
-                            .tint(customListData[index].isCompleted ? .green : .secondary)
+                            .tint(viewModel.customListData[index].isCompleted ? .green : .secondary)
                             Button {
-                                customListData[index].toggleIsDownloaded()
+                                viewModel.customListData[index].toggleIsDownloaded()
                             } label: {
                                 Image(systemName: "square.and.arrow.down")
                                     .resizable()
-                            }.tint(customListData[index].isDownloaded ? .blue : .secondary)
+                            }.tint(viewModel.customListData[index].isDownloaded ? .blue : .secondary)
                         }
                 }
                 .onDelete(perform: deleteItems)
                 .onMove(perform:moveItems)
+            }
+            .onAppear {
+                if viewModel.customListData.isEmpty {
+                    currentPageNumber += 1
+                    viewModel.fetchData(page: currentPageNumber)
+                }
             }
             
             HStack {
                 Spacer()
                 EditButton()
                 Button {
-                    customListData.append(CustomListData(title: "New Item"))
+                    viewModel.customListData.append(CustomListData(title: "New Item"))
                 } label: {
                     Text("Add")
                 }
@@ -71,11 +62,11 @@ struct CustomList: View {
     }
     
     func deleteItems(at offsets: IndexSet) {
-        customListData.remove(atOffsets: offsets)
+        viewModel.customListData.remove(atOffsets: offsets)
     }
     
     func moveItems(fromIndex: IndexSet, newIndex: Int) {
-        customListData.move(fromOffsets: fromIndex, toOffset: newIndex)
+        viewModel.customListData.move(fromOffsets: fromIndex, toOffset: newIndex)
     }
     
 }
