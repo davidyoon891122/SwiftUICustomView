@@ -244,7 +244,7 @@
 				ADB9A93C2B32C0440052DBD4 /* Carousel */,
 				ADB9A9B72B3A58C50052DBD4 /* Picker */,
 				ADB9A9BC2B3A63450052DBD4 /* List */,
-				ADB9A9C72B3BA13D0052DBD4 /* AnimationTextField.swift */,
+				ADB9A9C92B3BA6B20052DBD4 /* AnimationTextField */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -283,6 +283,14 @@
 				ADB9A9BF2B3A63D70052DBD4 /* CustomListData.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		ADB9A9C92B3BA6B20052DBD4 /* AnimationTextField */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9A9C72B3BA13D0052DBD4 /* AnimationTextField.swift */,
+			);
+			path = AnimationTextField;
 			sourceTree = "<group>";
 		};
 		ADF0D72D2B281CA200581108 /* Divider */ = {
