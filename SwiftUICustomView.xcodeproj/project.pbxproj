@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */; };
+		AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */; };
+		AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */; };
+		AD3EF4BE2B44E8280096DD42 /* PickerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BD2B44E8280096DD42 /* PickerStyle.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -79,6 +83,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
+		AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
+		AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
+		AD3EF4BD2B44E8280096DD42 /* PickerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyle.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -161,6 +169,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */,
+				AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */,
+				AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */,
+				AD3EF4BD2B44E8280096DD42 /* PickerStyle.swift */,
+			);
+			path = SegmentedPicker;
+			sourceTree = "<group>";
+		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +275,7 @@
 				ADB9A9BC2B3A63450052DBD4 /* List */,
 				ADB9A9C92B3BA6B20052DBD4 /* AnimationTextField */,
 				ADB9A9D12B3CF2870052DBD4 /* SkeletonView */,
+				AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -546,12 +566,15 @@
 				AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */,
 				AD9590F02B2936B40028EC34 /* CircleIconButton.swift in Sources */,
 				ADF0D7332B281D1E00581108 /* ProtocolViewModel.swift in Sources */,
+				AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */,
+				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				ADF0D7452B282AFA00581108 /* CoinDetailModel.swift in Sources */,
 				AD9590FA2B2938580028EC34 /* ToggleIconButton.swift in Sources */,
 				AD9591002B2939C70028EC34 /* RadioButton.swift in Sources */,
 				ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */,
 				ADB9A9BB2B3A58E60052DBD4 /* CustomList.swift in Sources */,
 				ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */,
+				AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */,
 				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
@@ -565,6 +588,7 @@
 				AD9590FE2B29392D0028EC34 /* DashedBorderButton.swift in Sources */,
 				AD9F79BC2B2690D20082A296 /* ContentView.swift in Sources */,
 				AD95910A2B293DDE0028EC34 /* ButtonWithCustomEffect.swift in Sources */,
+				AD3EF4BE2B44E8280096DD42 /* PickerStyle.swift in Sources */,
 				ADB9A9C82B3BA13D0052DBD4 /* AnimationTextField.swift in Sources */,
 				ADB9A93B2B32C03F0052DBD4 /* CustomPickerView.swift in Sources */,
 				ADF0D73B2B28257D00581108 /* CoinService.swift in Sources */,
