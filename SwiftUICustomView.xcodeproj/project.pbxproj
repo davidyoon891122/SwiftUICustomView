@@ -17,6 +17,7 @@
 		AD7516B42B4D23E800F83081 /* AlertNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516B32B4D23E800F83081 /* AlertNextView.swift */; };
 		AD7516B62B4E17A500F83081 /* AlignmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516B52B4E17A500F83081 /* AlignmentCardView.swift */; };
 		AD7516B82B4E180200F83081 /* Extension+VerticalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516B72B4E180200F83081 /* Extension+VerticalAlignment.swift */; };
+		AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516BA2B4E1BA400F83081 /* CurrencyView.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -99,6 +100,7 @@
 		AD7516B32B4D23E800F83081 /* AlertNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNextView.swift; sourceTree = "<group>"; };
 		AD7516B52B4E17A500F83081 /* AlignmentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentCardView.swift; sourceTree = "<group>"; };
 		AD7516B72B4E180200F83081 /* Extension+VerticalAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+VerticalAlignment.swift"; sourceTree = "<group>"; };
+		AD7516BA2B4E1BA400F83081 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -212,6 +214,14 @@
 			path = AlignmentCard;
 			sourceTree = "<group>";
 		};
+		AD7516BC2B4E1D6700F83081 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				AD7516BA2B4E1BA400F83081 /* CurrencyView.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +320,7 @@
 				AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */,
 				AD7516B22B4D23C500F83081 /* CustomAlert */,
 				AD7516B92B4E195500F83081 /* AlignmentCard */,
+				AD7516BC2B4E1D6700F83081 /* Currency */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -596,6 +607,7 @@
 				AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */,
 				ADF0D7352B281F1C00581108 /* CoinModel.swift in Sources */,
 				ADB9A9CE2B3CF20A0052DBD4 /* SkeletonView.swift in Sources */,
+				AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */,
 				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
 				AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */,
 				AD9590F02B2936B40028EC34 /* CircleIconButton.swift in Sources */,
