@@ -15,7 +15,10 @@ struct AlertTestView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                NavigationLink(destination: AlertNextView(), isActive: $moveNextView) {
+                NavigationLink(
+                    destination: AlertNextView(),
+                    isActive: $moveNextView
+                ) {
                     EmptyView()
                 }
                 VStack {
