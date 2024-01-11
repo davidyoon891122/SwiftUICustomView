@@ -21,6 +21,11 @@
 		AD7516C82B4E8C7300F83081 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516C72B4E8C7300F83081 /* KeyboardView.swift */; };
 		AD7516CB2B4F63D400F83081 /* ShapeStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516CA2B4F63D400F83081 /* ShapeStyleView.swift */; };
 		AD7516CD2B4F646B00F83081 /* ShapeStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516CC2B4F646B00F83081 /* ShapeStyleExample.swift */; };
+		AD7516D02B4F80C800F83081 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516CF2B4F80C800F83081 /* ChartView.swift */; };
+		AD7516D22B4F83A900F83081 /* CandleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516D12B4F83A900F83081 /* CandleChartView.swift */; };
+		AD7516D52B4F83E400F83081 /* CandleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516D42B4F83E400F83081 /* CandleModel.swift */; };
+		AD7516D82B4F87BD00F83081 /* CandlestickMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516D72B4F87BD00F83081 /* CandlestickMark.swift */; };
+		AD7516DC2B4F892A00F83081 /* CandleChartViewWithMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516DB2B4F892A00F83081 /* CandleChartViewWithMark.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -107,6 +112,11 @@
 		AD7516C72B4E8C7300F83081 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		AD7516CA2B4F63D400F83081 /* ShapeStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStyleView.swift; sourceTree = "<group>"; };
 		AD7516CC2B4F646B00F83081 /* ShapeStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStyleExample.swift; sourceTree = "<group>"; };
+		AD7516CF2B4F80C800F83081 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		AD7516D12B4F83A900F83081 /* CandleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleChartView.swift; sourceTree = "<group>"; };
+		AD7516D42B4F83E400F83081 /* CandleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleModel.swift; sourceTree = "<group>"; };
+		AD7516D72B4F87BD00F83081 /* CandlestickMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandlestickMark.swift; sourceTree = "<group>"; };
+		AD7516DB2B4F892A00F83081 /* CandleChartViewWithMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandleChartViewWithMark.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -245,6 +255,26 @@
 			path = ShapeStyle;
 			sourceTree = "<group>";
 		};
+		AD7516D32B4F83B100F83081 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				AD7516CF2B4F80C800F83081 /* ChartView.swift */,
+				AD7516D62B4F841800F83081 /* Candle */,
+			);
+			path = ChartView;
+			sourceTree = "<group>";
+		};
+		AD7516D62B4F841800F83081 /* Candle */ = {
+			isa = PBXGroup;
+			children = (
+				AD7516D12B4F83A900F83081 /* CandleChartView.swift */,
+				AD7516D42B4F83E400F83081 /* CandleModel.swift */,
+				AD7516D72B4F87BD00F83081 /* CandlestickMark.swift */,
+				AD7516DB2B4F892A00F83081 /* CandleChartViewWithMark.swift */,
+			);
+			path = Candle;
+			sourceTree = "<group>";
+		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +376,7 @@
 				AD7516BC2B4E1D6700F83081 /* Currency */,
 				AD7516C92B4F63BA00F83081 /* Keyboard */,
 				AD7516CE2B4F69A700F83081 /* ShapeStyle */,
+				AD7516D32B4F83B100F83081 /* ChartView */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -637,12 +668,15 @@
 				AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */,
 				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
 				AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */,
+				AD7516D52B4F83E400F83081 /* CandleModel.swift in Sources */,
 				AD9590F02B2936B40028EC34 /* CircleIconButton.swift in Sources */,
 				ADF0D7332B281D1E00581108 /* ProtocolViewModel.swift in Sources */,
 				AD7516B42B4D23E800F83081 /* AlertNextView.swift in Sources */,
+				AD7516D22B4F83A900F83081 /* CandleChartView.swift in Sources */,
 				AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */,
 				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */,
+				AD7516D82B4F87BD00F83081 /* CandlestickMark.swift in Sources */,
 				ADF0D7452B282AFA00581108 /* CoinDetailModel.swift in Sources */,
 				AD9590FA2B2938580028EC34 /* ToggleIconButton.swift in Sources */,
 				AD9591002B2939C70028EC34 /* RadioButton.swift in Sources */,
@@ -655,11 +689,13 @@
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
 				AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */,
+				AD7516DC2B4F892A00F83081 /* CandleChartViewWithMark.swift in Sources */,
 				ADF0D7372B28244100581108 /* CoinItemView.swift in Sources */,
 				ADB9A9D52B3CF88B0052DBD4 /* RedactedView.swift in Sources */,
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				ADB9A9D72B3CFBC30052DBD4 /* RedactedViewModel.swift in Sources */,
+				AD7516D02B4F80C800F83081 /* ChartView.swift in Sources */,
 				AD9591022B293A620028EC34 /* CheckmarkButton.swift in Sources */,
 				AD7516AD2B4D1D4D00F83081 /* CustomAlertView.swift in Sources */,
 				AD9590FE2B29392D0028EC34 /* DashedBorderButton.swift in Sources */,
