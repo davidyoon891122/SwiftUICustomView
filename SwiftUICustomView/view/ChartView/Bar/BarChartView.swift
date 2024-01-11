@@ -28,6 +28,10 @@ struct BarChartView: View {
                 .foregroundStyle(by: .value("Gender", stat.gender))
                 .clipShape(RoundedRectangle(cornerRadius: 16))
                 .position(by: .value("Gender", stat.gender))
+                .annotation(position: .bottom, alignment: .trailing, spacing: 16) {
+                    Text(verbatim: stat.polulation.formatted())
+                        .font(.caption)
+                }
                 
             }
         }

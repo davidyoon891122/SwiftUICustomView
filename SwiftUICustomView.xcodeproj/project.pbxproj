@@ -267,7 +267,7 @@
 				AD7516CF2B4F80C800F83081 /* ChartView.swift */,
 				AD7516E12B4FACE400F83081 /* Bar */,
 				AD7516D62B4F841800F83081 /* Candle */,
-				AD7516E22B4FACF100F83081 /* LineChartView.swift */,
+				AD7516E42B4FB14000F83081 /* Line */,
 			);
 			path = ChartView;
 			sourceTree = "<group>";
@@ -290,6 +290,14 @@
 				AD7516DF2B4FA92700F83081 /* StatsModel.swift */,
 			);
 			path = Bar;
+			sourceTree = "<group>";
+		};
+		AD7516E42B4FB14000F83081 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				AD7516E22B4FACF100F83081 /* LineChartView.swift */,
+			);
+			path = Line;
 			sourceTree = "<group>";
 		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
