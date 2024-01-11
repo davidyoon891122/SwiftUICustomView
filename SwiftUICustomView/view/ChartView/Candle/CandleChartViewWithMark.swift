@@ -18,7 +18,14 @@ struct CandleChartViewWithMark: View {
     var body: some View {
         Chart {
             ForEach(0...10, id: \.self) { index in
-                CandlestickMark(x: .value("index", index), low: .value("low", Int.random(in: 0...2)), high: .value("high", Int.random(in: 8...10)), open: .value("open", Int.random(in: 2...8)), close: .value("close", Int.random(in: 2...8)))
+                CandlestickMark(
+                    x: .value("index", index),
+                    low: .value("low", Int.random(in: 0...2)),
+                    high: .value("high", Int.random(in: 8...10)),
+                    open: .value("open", Int.random(in: 2...8)),
+                    close: .value("close", Int.random(in: 2...8))
+                )
+                .foregroundStyle(.green)
             }
         }
     }
