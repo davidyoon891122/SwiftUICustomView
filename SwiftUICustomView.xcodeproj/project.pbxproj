@@ -29,6 +29,8 @@
 		AD7516DE2B4FA90C00F83081 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516DD2B4FA90C00F83081 /* BarChartView.swift */; };
 		AD7516E02B4FA92700F83081 /* StatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516DF2B4FA92700F83081 /* StatsModel.swift */; };
 		AD7516E32B4FACF100F83081 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E22B4FACF100F83081 /* LineChartView.swift */; };
+		AD7516E62B4FB33F00F83081 /* ScrollableCandleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */; };
+		AD7516E82B4FB5A900F83081 /* ScrollableChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -123,6 +125,8 @@
 		AD7516DD2B4FA90C00F83081 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		AD7516DF2B4FA92700F83081 /* StatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsModel.swift; sourceTree = "<group>"; };
 		AD7516E22B4FACF100F83081 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCandleChart.swift; sourceTree = "<group>"; };
+		AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableChartViewModel.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -264,10 +268,12 @@
 		AD7516D32B4F83B100F83081 /* ChartView */ = {
 			isa = PBXGroup;
 			children = (
+				AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */,
 				AD7516CF2B4F80C800F83081 /* ChartView.swift */,
 				AD7516E12B4FACE400F83081 /* Bar */,
 				AD7516D62B4F841800F83081 /* Candle */,
 				AD7516E42B4FB14000F83081 /* Line */,
+				AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */,
 			);
 			path = ChartView;
 			sourceTree = "<group>";
@@ -731,6 +737,8 @@
 				AD95910A2B293DDE0028EC34 /* ButtonWithCustomEffect.swift in Sources */,
 				AD3EF4BE2B44E8280096DD42 /* PickerStyle.swift in Sources */,
 				ADB9A9C82B3BA13D0052DBD4 /* AnimationTextField.swift in Sources */,
+				AD7516E82B4FB5A900F83081 /* ScrollableChartViewModel.swift in Sources */,
+				AD7516E62B4FB33F00F83081 /* ScrollableCandleChart.swift in Sources */,
 				ADB9A93B2B32C03F0052DBD4 /* CustomPickerView.swift in Sources */,
 				ADF0D73B2B28257D00581108 /* CoinService.swift in Sources */,
 				ADB9A9C02B3A63D70052DBD4 /* CustomListData.swift in Sources */,
