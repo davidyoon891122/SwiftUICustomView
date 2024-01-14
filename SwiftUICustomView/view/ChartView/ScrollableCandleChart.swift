@@ -31,7 +31,6 @@ struct ScrollableCandleChart<Model>: View where Model: ScrollableChartViewModelP
             }
         }
         .frame(height: 240)
-//        .chartXVisibleDomain(length: 3600 * 24 * 200)
         .chartScrollPosition(x: .constant(Date()))
         .chartScrollableAxes(.horizontal)
         .onChange(of: scrollPosition) {

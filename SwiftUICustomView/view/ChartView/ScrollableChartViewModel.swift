@@ -52,7 +52,6 @@ protocol ScrollableChartViewModelProtocol: ObservableObject {
     
 }
 
-
 class ScrollableChartViewModel {
     
     @Published var chartInfoModel: [ChartInfoModel] = []
