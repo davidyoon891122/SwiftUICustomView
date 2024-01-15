@@ -31,6 +31,7 @@
 		AD7516E32B4FACF100F83081 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E22B4FACF100F83081 /* LineChartView.swift */; };
 		AD7516E62B4FB33F00F83081 /* ScrollableCandleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */; };
 		AD7516E82B4FB5A900F83081 /* ScrollableChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */; };
+		AD7517872B54AB9500F83081 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517862B54AB9500F83081 /* MaterialView.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -127,6 +128,7 @@
 		AD7516E22B4FACF100F83081 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCandleChart.swift; sourceTree = "<group>"; };
 		AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableChartViewModel.swift; sourceTree = "<group>"; };
+		AD7517862B54AB9500F83081 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -306,6 +308,14 @@
 			path = Line;
 			sourceTree = "<group>";
 		};
+		AD7517882B54AE0E00F83081 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				AD7517862B54AB9500F83081 /* MaterialView.swift */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +418,7 @@
 				AD7516C92B4F63BA00F83081 /* Keyboard */,
 				AD7516CE2B4F69A700F83081 /* ShapeStyle */,
 				AD7516D32B4F83B100F83081 /* ChartView */,
+				AD7517882B54AE0E00F83081 /* Material */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -754,6 +765,7 @@
 				ADB9A9BE2B3A63660052DBD4 /* FakeWebService.swift in Sources */,
 				AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */,
 				AD9590FC2B2938D40028EC34 /* TextWrappedButton.swift in Sources */,
+				AD7517872B54AB9500F83081 /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
