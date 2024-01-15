@@ -32,6 +32,10 @@
 		AD7516E62B4FB33F00F83081 /* ScrollableCandleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */; };
 		AD7516E82B4FB5A900F83081 /* ScrollableChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */; };
 		AD7517872B54AB9500F83081 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517862B54AB9500F83081 /* MaterialView.swift */; };
+		AD75178C2B54AE4B00F83081 /* SideHamburgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75178B2B54AE4B00F83081 /* SideHamburgerView.swift */; };
+		AD75178F2B54AE7400F83081 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75178E2B54AE7400F83081 /* SideView.swift */; };
+		AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517902B54AFB800F83081 /* SideMenuContentView.swift */; };
+		AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517922B54B1AD00F83081 /* SideMenuView.swift */; };
 		AD9590E92B2935060028EC34 /* FillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590E82B2935060028EC34 /* FillButton.swift */; };
 		AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590EB2B2935C60028EC34 /* BorderButton.swift */; };
 		AD9590EE2B2936540028EC34 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9590ED2B2936540028EC34 /* IconButton.swift */; };
@@ -129,6 +133,10 @@
 		AD7516E52B4FB33F00F83081 /* ScrollableCandleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableCandleChart.swift; sourceTree = "<group>"; };
 		AD7516E72B4FB5A900F83081 /* ScrollableChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableChartViewModel.swift; sourceTree = "<group>"; };
 		AD7517862B54AB9500F83081 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		AD75178B2B54AE4B00F83081 /* SideHamburgerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideHamburgerView.swift; sourceTree = "<group>"; };
+		AD75178E2B54AE7400F83081 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
+		AD7517902B54AFB800F83081 /* SideMenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuContentView.swift; sourceTree = "<group>"; };
+		AD7517922B54B1AD00F83081 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		AD9590E82B2935060028EC34 /* FillButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillButton.swift; sourceTree = "<group>"; };
 		AD9590EB2B2935C60028EC34 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		AD9590ED2B2936540028EC34 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
@@ -316,6 +324,17 @@
 			path = Material;
 			sourceTree = "<group>";
 		};
+		AD75178D2B54AE6600F83081 /* SideHamburger */ = {
+			isa = PBXGroup;
+			children = (
+				AD75178B2B54AE4B00F83081 /* SideHamburgerView.swift */,
+				AD75178E2B54AE7400F83081 /* SideView.swift */,
+				AD7517902B54AFB800F83081 /* SideMenuContentView.swift */,
+				AD7517922B54B1AD00F83081 /* SideMenuView.swift */,
+			);
+			path = SideHamburger;
+			sourceTree = "<group>";
+		};
 		AD9590EA2B29350C0028EC34 /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +438,7 @@
 				AD7516CE2B4F69A700F83081 /* ShapeStyle */,
 				AD7516D32B4F83B100F83081 /* ChartView */,
 				AD7517882B54AE0E00F83081 /* Material */,
+				AD75178D2B54AE6600F83081 /* SideHamburger */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -740,6 +760,7 @@
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				ADB9A9D72B3CFBC30052DBD4 /* RedactedViewModel.swift in Sources */,
 				AD7516D02B4F80C800F83081 /* ChartView.swift in Sources */,
+				AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */,
 				AD9591022B293A620028EC34 /* CheckmarkButton.swift in Sources */,
 				AD7516AD2B4D1D4D00F83081 /* CustomAlertView.swift in Sources */,
 				AD7516E02B4FA92700F83081 /* StatsModel.swift in Sources */,
@@ -756,12 +777,15 @@
 				AD9590EC2B2935C60028EC34 /* BorderButton.swift in Sources */,
 				AD9590F22B2936EA0028EC34 /* TextWithImageButton.swift in Sources */,
 				AD9590F82B2937EE0028EC34 /* CaptionIconButton.swift in Sources */,
+				AD75178C2B54AE4B00F83081 /* SideHamburgerView.swift in Sources */,
 				AD7516B82B4E180200F83081 /* Extension+VerticalAlignment.swift in Sources */,
 				AD7516C82B4E8C7300F83081 /* KeyboardView.swift in Sources */,
 				AD9F79BA2B2690D20082A296 /* SwiftUICustomViewApp.swift in Sources */,
 				AD7516B62B4E17A500F83081 /* AlignmentCardView.swift in Sources */,
 				AD9590E92B2935060028EC34 /* FillButton.swift in Sources */,
 				ADB9A9D32B3CF29F0052DBD4 /* SkeletonViewModel.swift in Sources */,
+				AD75178F2B54AE7400F83081 /* SideView.swift in Sources */,
+				AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */,
 				ADB9A9BE2B3A63660052DBD4 /* FakeWebService.swift in Sources */,
 				AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */,
 				AD9590FC2B2938D40028EC34 /* TextWrappedButton.swift in Sources */,
