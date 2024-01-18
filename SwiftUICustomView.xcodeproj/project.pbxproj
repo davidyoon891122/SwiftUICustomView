@@ -36,6 +36,12 @@
 		AD75178F2B54AE7400F83081 /* SideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75178E2B54AE7400F83081 /* SideView.swift */; };
 		AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517902B54AFB800F83081 /* SideMenuContentView.swift */; };
 		AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7517922B54B1AD00F83081 /* SideMenuView.swift */; };
+		AD79C4752B59E94D007ED45D /* OpacityAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C4742B59E94D007ED45D /* OpacityAnimationView.swift */; };
+		AD79C4782B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C4772B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift */; };
+		AD79C47A2B59EA51007ED45D /* ScaleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C4792B59EA51007ED45D /* ScaleAnimationView.swift */; };
+		AD79C47C2B59EAB4007ED45D /* RotationAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C47B2B59EAB4007ED45D /* RotationAnimationView.swift */; };
+		AD79C47E2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C47D2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift */; };
+		AD79C4802B59EBCB007ED45D /* GestureDrivenAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C47F2B59EBCB007ED45D /* GestureDrivenAnimationView.swift */; };
 		AD940F122B58E19900FFE614 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F112B58E19900FFE614 /* UserModel.swift */; };
 		AD940F142B58E25700FFE614 /* DefaultAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F132B58E25700FFE614 /* DefaultAvatarView.swift */; };
 		AD940F162B58E39200FFE614 /* AvatarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F152B58E39200FFE614 /* AvatarListView.swift */; };
@@ -140,6 +146,12 @@
 		AD75178E2B54AE7400F83081 /* SideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideView.swift; sourceTree = "<group>"; };
 		AD7517902B54AFB800F83081 /* SideMenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuContentView.swift; sourceTree = "<group>"; };
 		AD7517922B54B1AD00F83081 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		AD79C4742B59E94D007ED45D /* OpacityAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityAnimationView.swift; sourceTree = "<group>"; };
+		AD79C4772B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionAndOffsetAnimationView.swift; sourceTree = "<group>"; };
+		AD79C4792B59EA51007ED45D /* ScaleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimationView.swift; sourceTree = "<group>"; };
+		AD79C47B2B59EAB4007ED45D /* RotationAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimationView.swift; sourceTree = "<group>"; };
+		AD79C47D2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndBackgroundAnimationView.swift; sourceTree = "<group>"; };
+		AD79C47F2B59EBCB007ED45D /* GestureDrivenAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDrivenAnimationView.swift; sourceTree = "<group>"; };
 		AD940F112B58E19900FFE614 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		AD940F132B58E25700FFE614 /* DefaultAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAvatarView.swift; sourceTree = "<group>"; };
 		AD940F152B58E39200FFE614 /* AvatarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarListView.swift; sourceTree = "<group>"; };
@@ -341,6 +353,19 @@
 			path = SideHamburger;
 			sourceTree = "<group>";
 		};
+		AD79C4762B59E9C5007ED45D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AD79C4742B59E94D007ED45D /* OpacityAnimationView.swift */,
+				AD79C4772B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift */,
+				AD79C4792B59EA51007ED45D /* ScaleAnimationView.swift */,
+				AD79C47B2B59EAB4007ED45D /* RotationAnimationView.swift */,
+				AD79C47D2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift */,
+				AD79C47F2B59EBCB007ED45D /* GestureDrivenAnimationView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		AD940F172B58E3DD00FFE614 /* NameAvatar */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,6 +481,7 @@
 				AD7517882B54AE0E00F83081 /* Material */,
 				AD75178D2B54AE6600F83081 /* SideHamburger */,
 				AD940F172B58E3DD00FFE614 /* NameAvatar */,
+				AD79C4762B59E9C5007ED45D /* Animation */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -735,6 +761,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD79C4782B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift in Sources */,
 				AD9591062B293C570028EC34 /* ModernButton.swift in Sources */,
 				AD9591042B293B160028EC34 /* ModernCheckmarkButton.swift in Sources */,
 				ADB9A9D02B3CF2190052DBD4 /* Extension+View.swift in Sources */,
@@ -744,6 +771,7 @@
 				ADF0D7352B281F1C00581108 /* CoinModel.swift in Sources */,
 				ADB9A9CE2B3CF20A0052DBD4 /* SkeletonView.swift in Sources */,
 				AD7516CD2B4F646B00F83081 /* ShapeStyleExample.swift in Sources */,
+				AD79C47A2B59EA51007ED45D /* ScaleAnimationView.swift in Sources */,
 				AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */,
 				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
 				AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */,
@@ -755,6 +783,7 @@
 				AD940F162B58E39200FFE614 /* AvatarListView.swift in Sources */,
 				AD7516D22B4F83A900F83081 /* CandleChartView.swift in Sources */,
 				AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */,
+				AD79C4802B59EBCB007ED45D /* GestureDrivenAnimationView.swift in Sources */,
 				AD940F142B58E25700FFE614 /* DefaultAvatarView.swift in Sources */,
 				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */,
@@ -762,6 +791,7 @@
 				ADF0D7452B282AFA00581108 /* CoinDetailModel.swift in Sources */,
 				AD9590FA2B2938580028EC34 /* ToggleIconButton.swift in Sources */,
 				AD9591002B2939C70028EC34 /* RadioButton.swift in Sources */,
+				AD79C47E2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift in Sources */,
 				ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */,
 				ADB9A9BB2B3A58E60052DBD4 /* CustomList.swift in Sources */,
 				AD7516B12B4D202600F83081 /* AlertTestView.swift in Sources */,
@@ -776,6 +806,7 @@
 				ADF0D7372B28244100581108 /* CoinItemView.swift in Sources */,
 				ADB9A9D52B3CF88B0052DBD4 /* RedactedView.swift in Sources */,
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
+				AD79C47C2B59EAB4007ED45D /* RotationAnimationView.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				ADB9A9D72B3CFBC30052DBD4 /* RedactedViewModel.swift in Sources */,
 				AD7516D02B4F80C800F83081 /* ChartView.swift in Sources */,
@@ -788,6 +819,7 @@
 				AD9F79BC2B2690D20082A296 /* ContentView.swift in Sources */,
 				AD95910A2B293DDE0028EC34 /* ButtonWithCustomEffect.swift in Sources */,
 				AD3EF4BE2B44E8280096DD42 /* PickerStyle.swift in Sources */,
+				AD79C4752B59E94D007ED45D /* OpacityAnimationView.swift in Sources */,
 				ADB9A9C82B3BA13D0052DBD4 /* AnimationTextField.swift in Sources */,
 				AD7516E82B4FB5A900F83081 /* ScrollableChartViewModel.swift in Sources */,
 				AD7516E62B4FB33F00F83081 /* ScrollableCandleChart.swift in Sources */,
