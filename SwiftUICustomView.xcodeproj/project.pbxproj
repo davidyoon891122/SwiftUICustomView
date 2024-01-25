@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB692B61F43500FC072C /* CircleLoaderView.swift */; };
+		4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */; };
+		4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */; };
 		AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */; };
 		AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */; };
 		AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */; };
@@ -76,7 +79,6 @@
 		AD9F79E72B2691280082A296 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79E62B2691280082A296 /* SnapKit */; };
 		AD9F79E92B2691280082A296 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79E82B2691280082A296 /* SnapKit-Dynamic */; };
 		AD9F79EC2B2691540082A296 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AD9F79EB2B2691540082A296 /* Lottie */; };
-		AD9F79F02B26922E0082A296 /* free.json in Resources */ = {isa = PBXBuildFile; fileRef = AD9F79EF2B26922E0082A296 /* free.json */; };
 		AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F79F22B2692880082A296 /* CustomDivider.swift */; };
 		AD9F7A132B26DD550082A296 /* OptionalTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A122B26DD550082A296 /* OptionalTestView.swift */; };
 		AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */; };
@@ -120,6 +122,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4996BB692B61F43500FC072C /* CircleLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderView.swift; sourceTree = "<group>"; };
+		4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoaderView.swift; sourceTree = "<group>"; };
+		4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLoaderView.swift; sourceTree = "<group>"; };
 		AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
 		AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
 		AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
@@ -189,7 +194,6 @@
 		AD9F79D42B2690D30082A296 /* SwiftUICustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomViewUITests.swift; sourceTree = "<group>"; };
 		AD9F79D62B2690D30082A296 /* SwiftUICustomViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD9F79E32B26910A0082A296 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		AD9F79EF2B26922E0082A296 /* free.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = free.json; path = ../../../Downloads/free.json; sourceTree = "<group>"; };
 		AD9F79F22B2692880082A296 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		AD9F7A122B26DD550082A296 /* OptionalTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTestView.swift; sourceTree = "<group>"; };
 		AD9F7A152B26DD700082A296 /* OptionalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewModel.swift; sourceTree = "<group>"; };
@@ -243,6 +247,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4996BB6B2B61F43A00FC072C /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				4996BB692B61F43500FC072C /* CircleLoaderView.swift */,
+				4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */,
+				4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
 		AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,7 +463,6 @@
 				AD9F79B92B2690D20082A296 /* SwiftUICustomViewApp.swift */,
 				AD9F79BB2B2690D20082A296 /* ContentView.swift */,
 				AD9F79BD2B2690D30082A296 /* Assets.xcassets */,
-				AD9F79EF2B26922E0082A296 /* free.json */,
 				AD9F79BF2B2690D30082A296 /* Preview Content */,
 				AD9F79F12B2692750082A296 /* view */,
 			);
@@ -507,6 +520,7 @@
 				AD79C4762B59E9C5007ED45D /* Animation */,
 				AD79C48C2B5A4D92007ED45D /* ScrollViewReader */,
 				AD79C48F2B5A4E25007ED45D /* DragAndDrop */,
+				4996BB6B2B61F43A00FC072C /* Loader */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -761,7 +775,6 @@
 			files = (
 				AD9F79C12B2690D30082A296 /* Preview Assets.xcassets in Resources */,
 				AD9F79BE2B2690D30082A296 /* Assets.xcassets in Resources */,
-				AD9F79F02B26922E0082A296 /* free.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,6 +848,8 @@
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
 				AD79C47C2B59EAB4007ED45D /* RotationAnimationView.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
+				4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */,
+				4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */,
 				ADB9A9D72B3CFBC30052DBD4 /* RedactedViewModel.swift in Sources */,
 				AD7516D02B4F80C800F83081 /* ChartView.swift in Sources */,
 				AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */,
@@ -859,6 +874,7 @@
 				AD75178C2B54AE4B00F83081 /* SideHamburgerView.swift in Sources */,
 				AD7516B82B4E180200F83081 /* Extension+VerticalAlignment.swift in Sources */,
 				AD7516C82B4E8C7300F83081 /* KeyboardView.swift in Sources */,
+				4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */,
 				AD9F79BA2B2690D20082A296 /* SwiftUICustomViewApp.swift in Sources */,
 				AD7516B62B4E17A500F83081 /* AlignmentCardView.swift in Sources */,
 				AD9590E92B2935060028EC34 /* FillButton.swift in Sources */,
