@@ -11,6 +11,8 @@
 		4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */; };
 		4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */; };
 		4996BB712B63498500FC072C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB702B63498500FC072C /* ImagePickerView.swift */; };
+		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
+		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */; };
 		AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */; };
 		AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */; };
@@ -127,6 +129,8 @@
 		4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLoaderView.swift; sourceTree = "<group>"; };
 		4996BB702B63498500FC072C /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
+		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
 		AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
 		AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
@@ -265,6 +269,15 @@
 				4996BB702B63498500FC072C /* ImagePickerView.swift */,
 			);
 			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		49A771572B650D1A0093EDCA /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				49A771532B64B0600093EDCA /* PinPasscodeView.swift */,
+				49A771552B64B4100093EDCA /* MyPinCodeView.swift */,
+			);
+			path = Passcode;
 			sourceTree = "<group>";
 		};
 		AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */ = {
@@ -532,6 +545,7 @@
 				AD79C48F2B5A4E25007ED45D /* DragAndDrop */,
 				4996BB6B2B61F43A00FC072C /* Loader */,
 				4996BB722B634BB200FC072C /* ImagePicker */,
+				49A771572B650D1A0093EDCA /* Passcode */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -835,6 +849,7 @@
 				AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */,
 				AD79C4802B59EBCB007ED45D /* GestureDrivenAnimationView.swift in Sources */,
 				AD940F142B58E25700FFE614 /* DefaultAvatarView.swift in Sources */,
+				49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */,
 				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */,
 				AD7516D82B4F87BD00F83081 /* CandlestickMark.swift in Sources */,
@@ -890,6 +905,7 @@
 				AD9F79BA2B2690D20082A296 /* SwiftUICustomViewApp.swift in Sources */,
 				AD7516B62B4E17A500F83081 /* AlignmentCardView.swift in Sources */,
 				AD9590E92B2935060028EC34 /* FillButton.swift in Sources */,
+				49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */,
 				ADB9A9D32B3CF29F0052DBD4 /* SkeletonViewModel.swift in Sources */,
 				AD75178F2B54AE7400F83081 /* SideView.swift in Sources */,
 				AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */,

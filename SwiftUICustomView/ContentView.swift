@@ -8,27 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        ScrollableCandleChart(viewModel: ScrollableChartViewModel())
-//        VStack {
-//            CarouselView(itemHeight: 500, views: [
-//                AnyView(imageView(name: "sample")),
-//                AnyView(imageView(name: "sample2")),
-//                AnyView(imageView(name: "sample")),
-//                AnyView(imageView(name: "sample2")),
-//                AnyView(imageView(name: "sample")),
-//                AnyView(imageView(name: "sample2")),
-//                AnyView(imageView(name: "sample")),
-//                AnyView(imageView(name: "sample2")),
-//            ])
-//        }
-//        .padding()
+        MyPinCodeView()
     }
     
-    func imageView(name: String) -> some View {
-        Image(name)
-            .aspectRatio(contentMode: .fill)
-    }
+//    func imageView(name: String) -> some View {
+//        Image(name)
+//            .aspectRatio(contentMode: .fill)
+//    }
 }
 
 #Preview {
