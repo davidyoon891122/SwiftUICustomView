@@ -16,26 +16,36 @@ struct ToastView: View {
 
 
     var body: some View {
-        HStack(alignment: .center, spacing: 12) {
-            Image(systemName: style.iconFileName)
-                .foregroundStyle(style.themeColor)
-            Text(message)
-                .font(.caption)
-                .foregroundStyle(Color("toastForeground"))
-
-            Spacer(minLength: 10)
-
-            Button(action: {
-                onCancleTapped()
-            }, label: {
-                Image(systemName: "xmark")
+        VStack {
+            HStack(alignment: .center, spacing: 12) {
+                Image(systemName: style.iconFileName)
                     .foregroundStyle(style.themeColor)
-            })
+                Text(message)
+                    .font(.caption)
+                    .foregroundStyle(Color("toastForeground"))
+
+                Spacer(minLength: 10)
+
+                Button(action: {
+                    onCancleTapped()
+                }, label: {
+                    Image(systemName: "xmark")
+                        .foregroundStyle(style.themeColor)
+                })
+            }
+            .padding()
         }
-        .padding()
-        .frame(minWidth: 0, maxWidth: width)
         .background(Color("toastBackground"))
+        .overlay(
+            Rectangle()
+                .fill(.red)
+                .frame(width: 6)
+                .clipped(),
+            alignment: .leading
+        )
+        .frame(minWidth: 0, maxWidth: width)
         .clipShape(.rect(cornerRadius: 8))
+        .shadow(color: .black.opacity(0.25), radius: 4, x: 0, y: 1)
         .padding(.horizontal, 16)
     }
 
