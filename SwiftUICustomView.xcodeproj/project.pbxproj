@@ -321,9 +321,9 @@
 		49A771992B678B2C0093EDCA /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				49A771972B6788E00093EDCA /* BottomSheetContentView.swift */,
 				49A771932B67873B0093EDCA /* BottomSheet.swift */,
 				49A771952B6788470093EDCA /* BottomView.swift */,
-				49A771972B6788E00093EDCA /* BottomSheetContentView.swift */,
 			);
 			path = BottomSheet;
 			sourceTree = "<group>";

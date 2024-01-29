@@ -7,34 +7,46 @@
 
 import SwiftUI
 
-struct BottomSheet<Content:View>: View {
+struct BottomSheet<PresentingView: View>: ViewModifier {
 
     @Binding var isPresented: Bool
+    
+    @ViewBuilder var presentingView: PresentingView
 
-    let content: Content
-
-    var body: some View {
-        ZStack(alignment: .bottom) {
+    func body(content: Content) -> some View {
+        ZStack {
+            content
             if (isPresented) {
-                Color.black
-                    .opacity(0.3)
-                    .ignoresSafeArea()
-                    .onTapGesture {
-                        isPresented.toggle()
-                    }
-                content
-                    .padding(.bottom, 42)
-                    .transition(.move(edge: .bottom))
-                    .background(
-                        Color(.white)
-                    )
-                    .cornerRadius(16, corners: [.topLeft, .topRight])
+                ZStack(alignment: .bottom) {
+                    Color.black
+                        .opacity(0.3)
+                        .ignoresSafeArea()
+                        .onTapGesture {
+                            isPresented.toggle()
+                        }
+                    presentingView
+                        .padding(.bottom, 42)
+                        .background(
+                            Color(.white)
+                        )
+                        .cornerRadius(16, corners: [.topLeft, .topRight])
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                .ignoresSafeArea()
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-        .ignoresSafeArea()
+        .transition(.move(edge: .bottom))
         .animation(.easeInOut, value: isPresented)
     }
+
+}
+
+extension View {
+
+    func bottomSheet<PresentingView: View>(isPresented: Binding<Bool>, @ViewBuilder presentingView: @escaping () -> PresentingView) -> some View {
+        modifier(BottomSheet(isPresented: isPresented, presentingView: presentingView))
+    }
+
 }
 
 extension View {

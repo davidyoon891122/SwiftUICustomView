@@ -13,14 +13,12 @@ struct BottomSheetContentView: View {
 
     var body: some View {
         VStack {
-            ZStack {
-                Button("Open Button sheet") {
-                    isPresented.toggle()
-                }
-
-                BottomSheet(isPresented: $isPresented, content: BottomView())
-
+            Button("Open Button sheet") {
+                isPresented.toggle()
             }
+        }
+        .bottomSheet(isPresented: $isPresented) {
+            BottomView()
         }
     }
 }
