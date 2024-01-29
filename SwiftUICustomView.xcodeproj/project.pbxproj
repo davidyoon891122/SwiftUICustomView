@@ -19,6 +19,9 @@
 		49A771692B6693550093EDCA /* ToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771682B6693550093EDCA /* ToastContentView.swift */; };
 		49A771762B672CE20093EDCA /* AnimationSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771752B672CE20093EDCA /* AnimationSymbolView.swift */; };
 		49A771782B672F7D0093EDCA /* AnimationSymbolMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771772B672F7D0093EDCA /* AnimationSymbolMainView.swift */; };
+		49A771942B67873B0093EDCA /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771932B67873B0093EDCA /* BottomSheet.swift */; };
+		49A771962B6788470093EDCA /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771952B6788470093EDCA /* BottomView.swift */; };
+		49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771972B6788E00093EDCA /* BottomSheetContentView.swift */; };
 		AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */; };
 		AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */; };
 		AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */; };
@@ -143,6 +146,9 @@
 		49A771682B6693550093EDCA /* ToastContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastContentView.swift; sourceTree = "<group>"; };
 		49A771752B672CE20093EDCA /* AnimationSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSymbolView.swift; sourceTree = "<group>"; };
 		49A771772B672F7D0093EDCA /* AnimationSymbolMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSymbolMainView.swift; sourceTree = "<group>"; };
+		49A771932B67873B0093EDCA /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		49A771952B6788470093EDCA /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		49A771972B6788E00093EDCA /* BottomSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetContentView.swift; sourceTree = "<group>"; };
 		AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
 		AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
 		AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
@@ -301,6 +307,25 @@
 				49A771682B6693550093EDCA /* ToastContentView.swift */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		49A771922B6787080093EDCA /* SFSymbolAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				49A771752B672CE20093EDCA /* AnimationSymbolView.swift */,
+				49A771772B672F7D0093EDCA /* AnimationSymbolMainView.swift */,
+			);
+			path = SFSymbolAnimation;
+			sourceTree = "<group>";
+		};
+		49A771992B678B2C0093EDCA /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				49A771932B67873B0093EDCA /* BottomSheet.swift */,
+				49A771952B6788470093EDCA /* BottomView.swift */,
+				49A771972B6788E00093EDCA /* BottomSheetContentView.swift */,
+			);
+			path = BottomSheet;
 			sourceTree = "<group>";
 		};
 		AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */ = {
@@ -570,8 +595,8 @@
 				4996BB722B634BB200FC072C /* ImagePicker */,
 				49A771572B650D1A0093EDCA /* Passcode */,
 				49A7716A2B6694CE0093EDCA /* Toast */,
-				49A771752B672CE20093EDCA /* AnimationSymbolView.swift */,
-				49A771772B672F7D0093EDCA /* AnimationSymbolMainView.swift */,
+				49A771922B6787080093EDCA /* SFSymbolAnimation */,
+				49A771992B678B2C0093EDCA /* BottomSheet */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -891,6 +916,7 @@
 				ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */,
 				ADB9A9BB2B3A58E60052DBD4 /* CustomList.swift in Sources */,
 				AD7516B12B4D202600F83081 /* AlertTestView.swift in Sources */,
+				49A771942B67873B0093EDCA /* BottomSheet.swift in Sources */,
 				4996BB712B63498500FC072C /* ImagePickerView.swift in Sources */,
 				ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */,
 				AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */,
@@ -902,8 +928,10 @@
 				AD7516DC2B4F892A00F83081 /* CandleChartViewWithMark.swift in Sources */,
 				ADF0D7372B28244100581108 /* CoinItemView.swift in Sources */,
 				ADB9A9D52B3CF88B0052DBD4 /* RedactedView.swift in Sources */,
+				49A771962B6788470093EDCA /* BottomView.swift in Sources */,
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
 				AD79C47C2B59EAB4007ED45D /* RotationAnimationView.swift in Sources */,
+				49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */,
 				4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */,
