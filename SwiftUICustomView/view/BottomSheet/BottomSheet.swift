@@ -16,8 +16,9 @@ struct BottomSheet<PresentingView: View>: ViewModifier {
     func body(content: Content) -> some View {
         ZStack {
             content
-            if (isPresented) {
-                ZStack(alignment: .bottom) {
+
+            ZStack(alignment: .bottom) {
+                if isPresented {
                     Color.black
                         .opacity(0.3)
                         .ignoresSafeArea()
@@ -26,17 +27,17 @@ struct BottomSheet<PresentingView: View>: ViewModifier {
                         }
                     presentingView
                         .padding(.bottom, 42)
+                        .transition(.move(edge: .bottom))
                         .background(
                             Color(.white)
                         )
                         .cornerRadius(16, corners: [.topLeft, .topRight])
                 }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-                .ignoresSafeArea()
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+            .ignoresSafeArea()
+            .animation(.easeInOut, value: isPresented)
         }
-        .transition(.move(edge: .bottom))
-        .animation(.easeInOut, value: isPresented)
     }
 
 }
