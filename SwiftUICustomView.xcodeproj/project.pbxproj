@@ -58,6 +58,10 @@
 		AD79C5442B69C753007ED45D /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C5432B69C753007ED45D /* OptionsView.swift */; };
 		AD79C5472B69C85A007ED45D /* TextViewThatFitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C5462B69C85A007ED45D /* TextViewThatFitsView.swift */; };
 		AD79C5492B69C94C007ED45D /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C5482B69C94C007ED45D /* TermsView.swift */; };
+		AD79C54B2B69CAB6007ED45D /* SwiftChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C54A2B69CAB6007ED45D /* SwiftChartView.swift */; };
+		AD79C54F2B69CAE6007ED45D /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C54E2B69CAE6007ED45D /* Extension+Date.swift */; };
+		AD79C5512B69CB3F007ED45D /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C5502B69CB3F007ED45D /* StockModel.swift */; };
+		AD79C5532B69CDBC007ED45D /* SwiftChartSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79C5522B69CDBC007ED45D /* SwiftChartSecondView.swift */; };
 		AD940F122B58E19900FFE614 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F112B58E19900FFE614 /* UserModel.swift */; };
 		AD940F142B58E25700FFE614 /* DefaultAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F132B58E25700FFE614 /* DefaultAvatarView.swift */; };
 		AD940F162B58E39200FFE614 /* AvatarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD940F152B58E39200FFE614 /* AvatarListView.swift */; };
@@ -183,6 +187,10 @@
 		AD79C5432B69C753007ED45D /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		AD79C5462B69C85A007ED45D /* TextViewThatFitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewThatFitsView.swift; sourceTree = "<group>"; };
 		AD79C5482B69C94C007ED45D /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+		AD79C54A2B69CAB6007ED45D /* SwiftChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartView.swift; sourceTree = "<group>"; };
+		AD79C54E2B69CAE6007ED45D /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		AD79C5502B69CB3F007ED45D /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		AD79C5522B69CDBC007ED45D /* SwiftChartSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartSecondView.swift; sourceTree = "<group>"; };
 		AD940F112B58E19900FFE614 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		AD940F132B58E25700FFE614 /* DefaultAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAvatarView.swift; sourceTree = "<group>"; };
 		AD940F152B58E39200FFE614 /* AvatarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarListView.swift; sourceTree = "<group>"; };
@@ -454,6 +462,17 @@
 			path = ViewThatFits;
 			sourceTree = "<group>";
 		};
+		AD79C5542B69D080007ED45D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				AD79C54A2B69CAB6007ED45D /* SwiftChartView.swift */,
+				AD79C54E2B69CAE6007ED45D /* Extension+Date.swift */,
+				AD79C5502B69CB3F007ED45D /* StockModel.swift */,
+				AD79C5522B69CDBC007ED45D /* SwiftChartSecondView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 		AD940F172B58E3DD00FFE614 /* NameAvatar */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +594,7 @@
 				AD79C5242B6084C3007ED45D /* LoadingButton */,
 				4996BB6B2B61F43A00FC072C /* Loader */,
 				AD79C5452B69C847007ED45D /* ViewThatFits */,
+				AD79C5542B69D080007ED45D /* Chart */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -856,6 +876,7 @@
 				AD79C4782B59E9DD007ED45D /* PositionAndOffsetAnimationView.swift in Sources */,
 				AD9591062B293C570028EC34 /* ModernButton.swift in Sources */,
 				AD79C53C2B68E56C007ED45D /* ViewsThatFitView.swift in Sources */,
+				AD79C54B2B69CAB6007ED45D /* SwiftChartView.swift in Sources */,
 				AD9591042B293B160028EC34 /* ModernCheckmarkButton.swift in Sources */,
 				ADB9A9D02B3CF2190052DBD4 /* Extension+View.swift in Sources */,
 				AD79C48E2B5A4DB3007ED45D /* DragAndDropListView.swift in Sources */,
@@ -868,6 +889,7 @@
 				ADB9A9CE2B3CF20A0052DBD4 /* SkeletonView.swift in Sources */,
 				AD7516CD2B4F646B00F83081 /* ShapeStyleExample.swift in Sources */,
 				AD79C47A2B59EA51007ED45D /* ScaleAnimationView.swift in Sources */,
+				AD79C5512B69CB3F007ED45D /* StockModel.swift in Sources */,
 				AD79C4932B5A5396007ED45D /* ExpandableView.swift in Sources */,
 				AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */,
 				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
@@ -885,6 +907,7 @@
 				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */,
 				AD7516D82B4F87BD00F83081 /* CandlestickMark.swift in Sources */,
+				AD79C5532B69CDBC007ED45D /* SwiftChartSecondView.swift in Sources */,
 				ADF0D7452B282AFA00581108 /* CoinDetailModel.swift in Sources */,
 				AD9590FA2B2938580028EC34 /* ToggleIconButton.swift in Sources */,
 				AD79C4912B5A4E31007ED45D /* FruitItemView.swift in Sources */,
@@ -945,6 +968,7 @@
 				AD75178F2B54AE7400F83081 /* SideView.swift in Sources */,
 				AD79C5442B69C753007ED45D /* OptionsView.swift in Sources */,
 				AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */,
+				AD79C54F2B69CAE6007ED45D /* Extension+Date.swift in Sources */,
 				ADB9A9BE2B3A63660052DBD4 /* FakeWebService.swift in Sources */,
 				AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */,
 				AD79C4822B59EE8C007ED45D /* ScrollViewReaderView.swift in Sources */,
