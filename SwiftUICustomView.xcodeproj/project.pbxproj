@@ -651,7 +651,6 @@
 				49A771922B6787080093EDCA /* SFSymbolAnimation */,
 				49A771992B678B2C0093EDCA /* BottomSheet */,
 				AD79C5452B69C847007ED45D /* ViewThatFits */,
->>>>>>> refs/remotes/origin/main
 			);
 			path = view;
 			sourceTree = "<group>";
