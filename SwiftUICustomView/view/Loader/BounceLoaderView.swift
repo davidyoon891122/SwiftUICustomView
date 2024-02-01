@@ -20,9 +20,9 @@ struct BounceLoaderView: View {
 
     var body: some View {
         HStack {
-            DotView()
+            DotView(color: .purple)
                 .offset(y: offsetY1)
-            DotView()
+            DotView(color: .blue)
                 .offset(y: offsetY2)
             DotView()
                 .offset(y: offsetY3)
@@ -55,11 +55,12 @@ struct BounceLoaderView: View {
 struct DotView: View {
 
     let dotSize: CGFloat = 10.0
+    var color: Color = .orange
 
     var body: some View {
         Circle()
             .frame(width: dotSize, height: dotSize)
-            .foregroundStyle(.orange)
+            .foregroundStyle(color)
     }
 
 }
