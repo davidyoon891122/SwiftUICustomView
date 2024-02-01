@@ -22,6 +22,7 @@
 		49A771942B67873B0093EDCA /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771932B67873B0093EDCA /* BottomSheet.swift */; };
 		49A771962B6788470093EDCA /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771952B6788470093EDCA /* BottomView.swift */; };
 		49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771972B6788E00093EDCA /* BottomSheetContentView.swift */; };
+		49D358E12B6B1D070027610A /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D358E02B6B1D070027610A /* PhotoPickerView.swift */; };
 		AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */; };
 		AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */; };
 		AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */; };
@@ -159,6 +160,7 @@
 		49A771932B67873B0093EDCA /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		49A771952B6788470093EDCA /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		49A771972B6788E00093EDCA /* BottomSheetContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetContentView.swift; sourceTree = "<group>"; };
+		49D358E02B6B1D070027610A /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 		AD3EF4B72B44DDA30096DD42 /* SegmentedPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
 		AD3EF4B92B44E2370096DD42 /* PickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerContentView.swift; sourceTree = "<group>"; };
 		AD3EF4BB2B44E7730096DD42 /* AnimationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEffect.swift; sourceTree = "<group>"; };
@@ -346,6 +348,14 @@
 				49A771952B6788470093EDCA /* BottomView.swift */,
 			);
 			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		49D358E22B6B22950027610A /* PhontoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				49D358E02B6B1D070027610A /* PhotoPickerView.swift */,
+			);
+			path = PhontoPicker;
 			sourceTree = "<group>";
 		};
 		AD3EF4BF2B44E9210096DD42 /* SegmentedPicker */ = {
@@ -651,6 +661,7 @@
 				49A771922B6787080093EDCA /* SFSymbolAnimation */,
 				49A771992B678B2C0093EDCA /* BottomSheet */,
 				AD79C5452B69C847007ED45D /* ViewThatFits */,
+				49D358E22B6B22950027610A /* PhontoPicker */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -992,6 +1003,7 @@
 				49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				AD79C5282B608805007ED45D /* Extension+EnvironmentValues.swift in Sources */,
+				49D358E12B6B1D070027610A /* PhotoPickerView.swift in Sources */,
 				4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */,
 				4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */,
 				ADB9A9D72B3CFBC30052DBD4 /* RedactedViewModel.swift in Sources */,
