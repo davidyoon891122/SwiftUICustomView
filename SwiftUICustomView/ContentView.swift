@@ -13,10 +13,6 @@ struct ContentView: View {
         PhotoPickerView()
     }
     
-//    func imageView(name: String) -> some View {
-//        Image(name)
-//            .aspectRatio(contentMode: .fill)
-//    }
 }
 
 #Preview {
