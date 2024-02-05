@@ -62,7 +62,7 @@ struct DotView: View {
             .frame(width: dotSize, height: dotSize)
             .foregroundStyle(color)
     }
-    
+
 }
 
 
