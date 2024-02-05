@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49771A7D2B710A4C008F3408 /* InfiniteCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A7C2B710A4C008F3408 /* InfiniteCarouselView.swift */; };
+		49771A7F2B710E5F008F3408 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A7E2B710E5F008F3408 /* OffsetReader.swift */; };
+		49771A812B711596008F3408 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A802B711596008F3408 /* PageControl.swift */; };
 		4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB692B61F43500FC072C /* CircleLoaderView.swift */; };
 		4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */; };
 		4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */; };
@@ -163,6 +166,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49771A7C2B710A4C008F3408 /* InfiniteCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselView.swift; sourceTree = "<group>"; };
+		49771A7E2B710E5F008F3408 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
+		49771A802B711596008F3408 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		4996BB692B61F43500FC072C /* CircleLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLoaderView.swift; sourceTree = "<group>"; };
@@ -329,6 +335,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49771A822B711A37008F3408 /* KavSoftInfiniteCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				49771A7C2B710A4C008F3408 /* InfiniteCarouselView.swift */,
+				49771A7E2B710E5F008F3408 /* OffsetReader.swift */,
+				49771A802B711596008F3408 /* PageControl.swift */,
+			);
+			path = KavSoftInfiniteCarousel;
+			sourceTree = "<group>";
+		};
 		4996BB6B2B61F43A00FC072C /* Loader */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,6 +788,7 @@
 				AD79C5542B69D080007ED45D /* Chart */,
 				AD52D1A22B7063D9008FDEB6 /* HeroAnimationEffect */,
 				AD52D1A72B706A7A008FDEB6 /* TextAnimation */,
+				49771A822B711A37008F3408 /* KavSoftInfiniteCarousel */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1056,6 +1073,7 @@
 				AD79C54B2B69CAB6007ED45D /* SwiftChartView.swift in Sources */,
 				AD9591042B293B160028EC34 /* ModernCheckmarkButton.swift in Sources */,
 				ADB9A9D02B3CF2190052DBD4 /* Extension+View.swift in Sources */,
+				49771A812B711596008F3408 /* PageControl.swift in Sources */,
 				AD79C48E2B5A4DB3007ED45D /* DragAndDropListView.swift in Sources */,
 				AD9590F62B2937B70028EC34 /* IconButtonWithFullWidth.swift in Sources */,
 				AD52D1AF2B706EFE008FDEB6 /* HeroCardView.swift in Sources */,
@@ -1106,6 +1124,7 @@
 				ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */,
 				AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */,
 				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
+				49771A7D2B710A4C008F3408 /* InfiniteCarouselView.swift in Sources */,
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
 				AD7516DE2B4FA90C00F83081 /* BarChartView.swift in Sources */,
@@ -1120,6 +1139,7 @@
 				AD52D1B52B7079B7008FDEB6 /* HeroAnimatableLablesView.swift in Sources */,
 				49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */,
 				AD52D1B32B7077C9008FDEB6 /* Dimens.swift in Sources */,
+				49771A7F2B710E5F008F3408 /* OffsetReader.swift in Sources */,
 				AD9590F42B2937480028EC34 /* LinkButton.swift in Sources */,
 				AD52D1B72B707B13008FDEB6 /* Texts.swift in Sources */,
 				AD79C5282B608805007ED45D /* Extension+EnvironmentValues.swift in Sources */,
