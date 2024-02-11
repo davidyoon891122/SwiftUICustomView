@@ -10,6 +10,9 @@
 		49771A7D2B710A4C008F3408 /* InfiniteCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A7C2B710A4C008F3408 /* InfiniteCarouselView.swift */; };
 		49771A7F2B710E5F008F3408 /* OffsetReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A7E2B710E5F008F3408 /* OffsetReader.swift */; };
 		49771A812B711596008F3408 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771A802B711596008F3408 /* PageControl.swift */; };
+		49771AA82B7201E9008F3408 /* PreferenceKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771AA72B7201E9008F3408 /* PreferenceKeyView.swift */; };
+		49771AAA2B7202EF008F3408 /* PreferenceSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771AA92B7202EF008F3408 /* PreferenceSubView.swift */; };
+		49771AAC2B72031E008F3408 /* NavigationPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49771AAB2B72031E008F3408 /* NavigationPreferenceKey.swift */; };
 		4996BB6A2B61F43500FC072C /* CircleLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB692B61F43500FC072C /* CircleLoaderView.swift */; };
 		4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */; };
 		4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */; };
@@ -169,6 +172,9 @@
 		49771A7C2B710A4C008F3408 /* InfiniteCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarouselView.swift; sourceTree = "<group>"; };
 		49771A7E2B710E5F008F3408 /* OffsetReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetReader.swift; sourceTree = "<group>"; };
 		49771A802B711596008F3408 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		49771AA72B7201E9008F3408 /* PreferenceKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyView.swift; sourceTree = "<group>"; };
+		49771AA92B7202EF008F3408 /* PreferenceSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceSubView.swift; sourceTree = "<group>"; };
+		49771AAB2B72031E008F3408 /* NavigationPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPreferenceKey.swift; sourceTree = "<group>"; };
 		4996BB692B61F43500FC072C /* CircleLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLoaderView.swift; sourceTree = "<group>"; };
@@ -343,6 +349,16 @@
 				49771A802B711596008F3408 /* PageControl.swift */,
 			);
 			path = KavSoftInfiniteCarousel;
+			sourceTree = "<group>";
+		};
+		49771AAD2B720533008F3408 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				49771AA72B7201E9008F3408 /* PreferenceKeyView.swift */,
+				49771AA92B7202EF008F3408 /* PreferenceSubView.swift */,
+				49771AAB2B72031E008F3408 /* NavigationPreferenceKey.swift */,
+			);
+			path = PreferenceKey;
 			sourceTree = "<group>";
 		};
 		4996BB6B2B61F43A00FC072C /* Loader */ = {
@@ -789,6 +805,7 @@
 				AD52D1A22B7063D9008FDEB6 /* HeroAnimationEffect */,
 				AD52D1A72B706A7A008FDEB6 /* TextAnimation */,
 				49771A822B711A37008F3408 /* KavSoftInfiniteCarousel */,
+				49771AAD2B720533008F3408 /* PreferenceKey */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1100,6 +1117,7 @@
 				AD7516E32B4FACF100F83081 /* LineChartView.swift in Sources */,
 				AD940F162B58E39200FFE614 /* AvatarListView.swift in Sources */,
 				AD7516D22B4F83A900F83081 /* CandleChartView.swift in Sources */,
+				49771AA82B7201E9008F3408 /* PreferenceKeyView.swift in Sources */,
 				AD3EF4BC2B44E7730096DD42 /* AnimationEffect.swift in Sources */,
 				AD79C4802B59EBCB007ED45D /* GestureDrivenAnimationView.swift in Sources */,
 				AD940F142B58E25700FFE614 /* DefaultAvatarView.swift in Sources */,
@@ -1126,6 +1144,7 @@
 				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
 				49771A7D2B710A4C008F3408 /* InfiniteCarouselView.swift in Sources */,
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
+				49771AAA2B7202EF008F3408 /* PreferenceSubView.swift in Sources */,
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
 				AD7516DE2B4FA90C00F83081 /* BarChartView.swift in Sources */,
 				AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */,
@@ -1135,6 +1154,7 @@
 				AD52D1AB2B706CC8008FDEB6 /* AnimatableSystemFontModifier.swift in Sources */,
 				49A771962B6788470093EDCA /* BottomView.swift in Sources */,
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
+				49771AAC2B72031E008F3408 /* NavigationPreferenceKey.swift in Sources */,
 				AD79C47C2B59EAB4007ED45D /* RotationAnimationView.swift in Sources */,
 				AD52D1B52B7079B7008FDEB6 /* HeroAnimatableLablesView.swift in Sources */,
 				49A771982B6788E00093EDCA /* BottomSheetContentView.swift in Sources */,
