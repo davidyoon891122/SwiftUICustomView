@@ -20,6 +20,8 @@
 		499BD3CF2B79D68A0056A741 /* DropDownPickerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */; };
 		499BD3D12B79D6B40056A741 /* DropDownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D02B79D6B40056A741 /* DropDownPickerView.swift */; };
 		499BD3D32B79DB340056A741 /* DropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D22B79DB340056A741 /* DropDownContentView.swift */; };
+		499BD3D62B7A03480056A741 /* ZDropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D52B7A03480056A741 /* ZDropDownContentView.swift */; };
+		499BD3D82B7A08750056A741 /* DropTow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D72B7A08750056A741 /* DropTow.swift */; };
 		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
 		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		49A771632B668E2D0093EDCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771622B668E2D0093EDCA /* Toast.swift */; };
@@ -185,6 +187,8 @@
 		499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerState.swift; sourceTree = "<group>"; };
 		499BD3D02B79D6B40056A741 /* DropDownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerView.swift; sourceTree = "<group>"; };
 		499BD3D22B79DB340056A741 /* DropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownContentView.swift; sourceTree = "<group>"; };
+		499BD3D52B7A03480056A741 /* ZDropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDropDownContentView.swift; sourceTree = "<group>"; };
+		499BD3D72B7A08750056A741 /* DropTow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropTow.swift; sourceTree = "<group>"; };
 		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
 		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		49A771622B668E2D0093EDCA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -393,6 +397,15 @@
 				499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */,
 			);
 			path = DropDown;
+			sourceTree = "<group>";
+		};
+		499BD3D92B7A0A8D0056A741 /* DropDowZStack */ = {
+			isa = PBXGroup;
+			children = (
+				499BD3D52B7A03480056A741 /* ZDropDownContentView.swift */,
+				499BD3D72B7A08750056A741 /* DropTow.swift */,
+			);
+			path = DropDowZStack;
 			sourceTree = "<group>";
 		};
 		49A771572B650D1A0093EDCA /* Passcode */ = {
@@ -823,6 +836,7 @@
 				49771A822B711A37008F3408 /* KavSoftInfiniteCarousel */,
 				49771AAD2B720533008F3408 /* PreferenceKey */,
 				499BD3D42B79DC310056A741 /* DropDown */,
+				499BD3D92B7A0A8D0056A741 /* DropDowZStack */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1189,6 +1203,7 @@
 				AD52D1BE2B7092FC008FDEB6 /* HeroCardDetailView.swift in Sources */,
 				AD52D1C02B709703008FDEB6 /* HeroCloseButton.swift in Sources */,
 				AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */,
+				499BD3D62B7A03480056A741 /* ZDropDownContentView.swift in Sources */,
 				AD9591022B293A620028EC34 /* CheckmarkButton.swift in Sources */,
 				AD7516AD2B4D1D4D00F83081 /* CustomAlertView.swift in Sources */,
 				499BD3D12B79D6B40056A741 /* DropDownPickerView.swift in Sources */,
@@ -1236,6 +1251,7 @@
 				ADB9A9BE2B3A63660052DBD4 /* FakeWebService.swift in Sources */,
 				AD9F79E42B26910A0082A296 /* LottieView.swift in Sources */,
 				AD79C4822B59EE8C007ED45D /* ScrollViewReaderView.swift in Sources */,
+				499BD3D82B7A08750056A741 /* DropTow.swift in Sources */,
 				AD9590FC2B2938D40028EC34 /* TextWrappedButton.swift in Sources */,
 				AD7517872B54AB9500F83081 /* MaterialView.swift in Sources */,
 			);
