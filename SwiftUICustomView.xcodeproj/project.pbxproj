@@ -17,6 +17,9 @@
 		4996BB6D2B61F7AD00FC072C /* DotLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */; };
 		4996BB6F2B61FAC700FC072C /* BounceLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */; };
 		4996BB712B63498500FC072C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996BB702B63498500FC072C /* ImagePickerView.swift */; };
+		499BD3CF2B79D68A0056A741 /* DropDownPickerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */; };
+		499BD3D12B79D6B40056A741 /* DropDownPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D02B79D6B40056A741 /* DropDownPickerView.swift */; };
+		499BD3D32B79DB340056A741 /* DropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D22B79DB340056A741 /* DropDownContentView.swift */; };
 		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
 		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		49A771632B668E2D0093EDCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771622B668E2D0093EDCA /* Toast.swift */; };
@@ -179,6 +182,9 @@
 		4996BB6C2B61F7AD00FC072C /* DotLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoaderView.swift; sourceTree = "<group>"; };
 		4996BB6E2B61FAC700FC072C /* BounceLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceLoaderView.swift; sourceTree = "<group>"; };
 		4996BB702B63498500FC072C /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerState.swift; sourceTree = "<group>"; };
+		499BD3D02B79D6B40056A741 /* DropDownPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerView.swift; sourceTree = "<group>"; };
+		499BD3D22B79DB340056A741 /* DropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownContentView.swift; sourceTree = "<group>"; };
 		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
 		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		49A771622B668E2D0093EDCA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -377,6 +383,16 @@
 				4996BB702B63498500FC072C /* ImagePickerView.swift */,
 			);
 			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		499BD3D42B79DC310056A741 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				499BD3D22B79DB340056A741 /* DropDownContentView.swift */,
+				499BD3D02B79D6B40056A741 /* DropDownPickerView.swift */,
+				499BD3CE2B79D68A0056A741 /* DropDownPickerState.swift */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		49A771572B650D1A0093EDCA /* Passcode */ = {
@@ -806,6 +822,7 @@
 				AD52D1A72B706A7A008FDEB6 /* TextAnimation */,
 				49771A822B711A37008F3408 /* KavSoftInfiniteCarousel */,
 				49771AAD2B720533008F3408 /* PreferenceKey */,
+				499BD3D42B79DC310056A741 /* DropDown */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1133,6 +1150,7 @@
 				AD52D1B12B707762008FDEB6 /* AnimationId.swift in Sources */,
 				AD9591002B2939C70028EC34 /* RadioButton.swift in Sources */,
 				AD79C47E2B59EB56007ED45D /* ColorAndBackgroundAnimationView.swift in Sources */,
+				499BD3D32B79DB340056A741 /* DropDownContentView.swift in Sources */,
 				ADF0D7302B281CF500581108 /* ProtocolView.swift in Sources */,
 				ADB9A9BB2B3A58E60052DBD4 /* CustomList.swift in Sources */,
 				AD7516B12B4D202600F83081 /* AlertTestView.swift in Sources */,
@@ -1173,6 +1191,7 @@
 				AD7517932B54B1AD00F83081 /* SideMenuView.swift in Sources */,
 				AD9591022B293A620028EC34 /* CheckmarkButton.swift in Sources */,
 				AD7516AD2B4D1D4D00F83081 /* CustomAlertView.swift in Sources */,
+				499BD3D12B79D6B40056A741 /* DropDownPickerView.swift in Sources */,
 				AD7516E02B4FA92700F83081 /* StatsModel.swift in Sources */,
 				AD9590FE2B29392D0028EC34 /* DashedBorderButton.swift in Sources */,
 				AD940F122B58E19900FFE614 /* UserModel.swift in Sources */,
@@ -1204,6 +1223,7 @@
 				AD9590E92B2935060028EC34 /* FillButton.swift in Sources */,
 				49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */,
 				ADB9A9D32B3CF29F0052DBD4 /* SkeletonViewModel.swift in Sources */,
+				499BD3CF2B79D68A0056A741 /* DropDownPickerState.swift in Sources */,
 				AD79C5472B69C85A007ED45D /* TextViewThatFitsView.swift in Sources */,
 				AD75178F2B54AE7400F83081 /* SideView.swift in Sources */,
 				AD52D1A62B706A76008FDEB6 /* TextAnimationView.swift in Sources */,
