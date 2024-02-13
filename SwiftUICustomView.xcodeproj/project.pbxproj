@@ -22,6 +22,9 @@
 		499BD3D32B79DB340056A741 /* DropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D22B79DB340056A741 /* DropDownContentView.swift */; };
 		499BD3D62B7A03480056A741 /* ZDropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D52B7A03480056A741 /* ZDropDownContentView.swift */; };
 		499BD3D82B7A08750056A741 /* DropTow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3D72B7A08750056A741 /* DropTow.swift */; };
+		499BD3DB2B7A40640056A741 /* MyDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DA2B7A40640056A741 /* MyDropDownView.swift */; };
+		499BD3DD2B7A42AC0056A741 /* MyDropItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */; };
+		499BD3DF2B7A45C10056A741 /* MyDropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */; };
 		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
 		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		49A771632B668E2D0093EDCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771622B668E2D0093EDCA /* Toast.swift */; };
@@ -189,6 +192,9 @@
 		499BD3D22B79DB340056A741 /* DropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownContentView.swift; sourceTree = "<group>"; };
 		499BD3D52B7A03480056A741 /* ZDropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDropDownContentView.swift; sourceTree = "<group>"; };
 		499BD3D72B7A08750056A741 /* DropTow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropTow.swift; sourceTree = "<group>"; };
+		499BD3DA2B7A40640056A741 /* MyDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropDownView.swift; sourceTree = "<group>"; };
+		499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropItemsView.swift; sourceTree = "<group>"; };
+		499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropDownContentView.swift; sourceTree = "<group>"; };
 		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
 		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		49A771622B668E2D0093EDCA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -837,6 +843,9 @@
 				49771AAD2B720533008F3408 /* PreferenceKey */,
 				499BD3D42B79DC310056A741 /* DropDown */,
 				499BD3D92B7A0A8D0056A741 /* DropDowZStack */,
+				499BD3DA2B7A40640056A741 /* MyDropDownView.swift */,
+				499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */,
+				499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1156,6 +1165,7 @@
 				AD3EF4BA2B44E2370096DD42 /* PickerContentView.swift in Sources */,
 				49A771652B668EFA0093EDCA /* ToastView.swift in Sources */,
 				AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */,
+				499BD3DB2B7A40640056A741 /* MyDropDownView.swift in Sources */,
 				AD7516D82B4F87BD00F83081 /* CandlestickMark.swift in Sources */,
 				AD79C5532B69CDBC007ED45D /* SwiftChartSecondView.swift in Sources */,
 				ADF0D7452B282AFA00581108 /* CoinDetailModel.swift in Sources */,
@@ -1180,10 +1190,12 @@
 				ADF0D7432B28288C00581108 /* CoinDetailView.swift in Sources */,
 				AD7516DE2B4FA90C00F83081 /* BarChartView.swift in Sources */,
 				AD9F79F32B2692880082A296 /* CustomDivider.swift in Sources */,
+				499BD3DD2B7A42AC0056A741 /* MyDropItemsView.swift in Sources */,
 				AD7516DC2B4F892A00F83081 /* CandleChartViewWithMark.swift in Sources */,
 				ADF0D7372B28244100581108 /* CoinItemView.swift in Sources */,
 				ADB9A9D52B3CF88B0052DBD4 /* RedactedView.swift in Sources */,
 				AD52D1AB2B706CC8008FDEB6 /* AnimatableSystemFontModifier.swift in Sources */,
+				499BD3DF2B7A45C10056A741 /* MyDropDownContentView.swift in Sources */,
 				49A771962B6788470093EDCA /* BottomView.swift in Sources */,
 				ADF0D7392B28254E00581108 /* CoinServiceProtocol.swift in Sources */,
 				49771AAC2B72031E008F3408 /* NavigationPreferenceKey.swift in Sources */,

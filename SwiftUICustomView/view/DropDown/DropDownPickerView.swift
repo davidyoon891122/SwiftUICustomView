@@ -27,7 +27,6 @@ struct DropDownPickerView: View {
 
             VStack(spacing: 0) {
 
-
                 if state == .top && showDropDown {
                     OptionsView()
                 }
@@ -65,6 +64,9 @@ struct DropDownPickerView: View {
             .contentShape(.rect)
             .background((scheme == .dark ? Color.black : Color.white).shadow(.drop(color: .primary.opacity(0.15), radius: 4)), in: .rect(cornerRadius: 12))
             .frame(height: size.height, alignment: state == .top ? .bottom : .top)
+            .fullScreenCover(isPresented: $showDropDown) {
+                OptionsView()
+            }
 
         }
         .frame(width: maxWidth, height: 50)
