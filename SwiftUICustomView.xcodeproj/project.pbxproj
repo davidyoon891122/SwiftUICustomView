@@ -25,6 +25,7 @@
 		499BD3DB2B7A40640056A741 /* MyDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DA2B7A40640056A741 /* MyDropDownView.swift */; };
 		499BD3DD2B7A42AC0056A741 /* MyDropItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */; };
 		499BD3DF2B7A45C10056A741 /* MyDropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */; };
+		499BD3E82B7C46E60056A741 /* BlendModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3E72B7C46E60056A741 /* BlendModeView.swift */; };
 		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
 		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		49A771632B668E2D0093EDCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771622B668E2D0093EDCA /* Toast.swift */; };
@@ -195,6 +196,7 @@
 		499BD3DA2B7A40640056A741 /* MyDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropDownView.swift; sourceTree = "<group>"; };
 		499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropItemsView.swift; sourceTree = "<group>"; };
 		499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropDownContentView.swift; sourceTree = "<group>"; };
+		499BD3E72B7C46E60056A741 /* BlendModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeView.swift; sourceTree = "<group>"; };
 		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
 		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		49A771622B668E2D0093EDCA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -412,6 +414,16 @@
 				499BD3D72B7A08750056A741 /* DropTow.swift */,
 			);
 			path = DropDowZStack;
+			sourceTree = "<group>";
+		};
+		499BD3E02B7AF5500056A741 /* MyDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				499BD3DA2B7A40640056A741 /* MyDropDownView.swift */,
+				499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */,
+				499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */,
+			);
+			path = MyDropDown;
 			sourceTree = "<group>";
 		};
 		49A771572B650D1A0093EDCA /* Passcode */ = {
@@ -843,9 +855,8 @@
 				49771AAD2B720533008F3408 /* PreferenceKey */,
 				499BD3D42B79DC310056A741 /* DropDown */,
 				499BD3D92B7A0A8D0056A741 /* DropDowZStack */,
-				499BD3DA2B7A40640056A741 /* MyDropDownView.swift */,
-				499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */,
-				499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */,
+				499BD3E02B7AF5500056A741 /* MyDropDown */,
+				499BD3E72B7C46E60056A741 /* BlendModeView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1183,6 +1194,7 @@
 				4996BB712B63498500FC072C /* ImagePickerView.swift in Sources */,
 				ADD316932B2FC29D003859D4 /* CarouselView.swift in Sources */,
 				AD3EF4B82B44DDA30096DD42 /* SegmentedPickerView.swift in Sources */,
+				499BD3E82B7C46E60056A741 /* BlendModeView.swift in Sources */,
 				AD9F7A182B26DF590082A296 /* AccountModel.swift in Sources */,
 				49771A7D2B710A4C008F3408 /* InfiniteCarouselView.swift in Sources */,
 				AD9591082B293D3F0028EC34 /* ModernButton2.swift in Sources */,
