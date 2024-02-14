@@ -26,6 +26,7 @@
 		499BD3DD2B7A42AC0056A741 /* MyDropItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */; };
 		499BD3DF2B7A45C10056A741 /* MyDropDownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */; };
 		499BD3E82B7C46E60056A741 /* BlendModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3E72B7C46E60056A741 /* BlendModeView.swift */; };
+		499BD3EA2B7C4E6F0056A741 /* BlendModeTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BD3E92B7C4E6F0056A741 /* BlendModeTestView.swift */; };
 		49A771542B64B0600093EDCA /* PinPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771532B64B0600093EDCA /* PinPasscodeView.swift */; };
 		49A771562B64B4100093EDCA /* MyPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771552B64B4100093EDCA /* MyPinCodeView.swift */; };
 		49A771632B668E2D0093EDCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A771622B668E2D0093EDCA /* Toast.swift */; };
@@ -197,6 +198,7 @@
 		499BD3DC2B7A42AC0056A741 /* MyDropItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropItemsView.swift; sourceTree = "<group>"; };
 		499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDropDownContentView.swift; sourceTree = "<group>"; };
 		499BD3E72B7C46E60056A741 /* BlendModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeView.swift; sourceTree = "<group>"; };
+		499BD3E92B7C4E6F0056A741 /* BlendModeTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeTestView.swift; sourceTree = "<group>"; };
 		49A771532B64B0600093EDCA /* PinPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPasscodeView.swift; sourceTree = "<group>"; };
 		49A771552B64B4100093EDCA /* MyPinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinCodeView.swift; sourceTree = "<group>"; };
 		49A771622B668E2D0093EDCA /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -424,6 +426,15 @@
 				499BD3DE2B7A45C10056A741 /* MyDropDownContentView.swift */,
 			);
 			path = MyDropDown;
+			sourceTree = "<group>";
+		};
+		499BD3EB2B7C5A5F0056A741 /* BlendMode */ = {
+			isa = PBXGroup;
+			children = (
+				499BD3E72B7C46E60056A741 /* BlendModeView.swift */,
+				499BD3E92B7C4E6F0056A741 /* BlendModeTestView.swift */,
+			);
+			path = BlendMode;
 			sourceTree = "<group>";
 		};
 		49A771572B650D1A0093EDCA /* Passcode */ = {
@@ -856,7 +867,7 @@
 				499BD3D42B79DC310056A741 /* DropDown */,
 				499BD3D92B7A0A8D0056A741 /* DropDowZStack */,
 				499BD3E02B7AF5500056A741 /* MyDropDown */,
-				499BD3E72B7C46E60056A741 /* BlendModeView.swift */,
+				499BD3EB2B7C5A5F0056A741 /* BlendMode */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1206,6 +1217,7 @@
 				AD7516DC2B4F892A00F83081 /* CandleChartViewWithMark.swift in Sources */,
 				ADF0D7372B28244100581108 /* CoinItemView.swift in Sources */,
 				ADB9A9D52B3CF88B0052DBD4 /* RedactedView.swift in Sources */,
+				499BD3EA2B7C4E6F0056A741 /* BlendModeTestView.swift in Sources */,
 				AD52D1AB2B706CC8008FDEB6 /* AnimatableSystemFontModifier.swift in Sources */,
 				499BD3DF2B7A45C10056A741 /* MyDropDownContentView.swift in Sources */,
 				49A771962B6788470093EDCA /* BottomView.swift in Sources */,
