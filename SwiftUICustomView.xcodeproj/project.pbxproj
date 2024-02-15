@@ -57,6 +57,9 @@
 		AD52D1B92B707C8C008FDEB6 /* Extension+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52D1B82B707C8C008FDEB6 /* Extension+Animation.swift */; };
 		AD52D1BE2B7092FC008FDEB6 /* HeroCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52D1BD2B7092FC008FDEB6 /* HeroCardDetailView.swift */; };
 		AD52D1C02B709703008FDEB6 /* HeroCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52D1BF2B709703008FDEB6 /* HeroCloseButton.swift */; };
+		AD61B1322B7DD60A001E1876 /* EditableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B1312B7DD60A001E1876 /* EditableListView.swift */; };
+		AD61B1342B7DD61C001E1876 /* EditableListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B1332B7DD61C001E1876 /* EditableListContentView.swift */; };
+		AD61B1372B7DD990001E1876 /* EditableListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61B1362B7DD990001E1876 /* EditableListViewModel.swift */; };
 		AD7516AD2B4D1D4D00F83081 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516AC2B4D1D4D00F83081 /* CustomAlertView.swift */; };
 		AD7516AF2B4D1E3500F83081 /* EndTickerAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516AE2B4D1E3500F83081 /* EndTickerAlertButton.swift */; };
 		AD7516B12B4D202600F83081 /* AlertTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7516B02B4D202600F83081 /* AlertTestView.swift */; };
@@ -229,6 +232,9 @@
 		AD52D1B82B707C8C008FDEB6 /* Extension+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Animation.swift"; sourceTree = "<group>"; };
 		AD52D1BD2B7092FC008FDEB6 /* HeroCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCardDetailView.swift; sourceTree = "<group>"; };
 		AD52D1BF2B709703008FDEB6 /* HeroCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCloseButton.swift; sourceTree = "<group>"; };
+		AD61B1312B7DD60A001E1876 /* EditableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListView.swift; sourceTree = "<group>"; };
+		AD61B1332B7DD61C001E1876 /* EditableListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListContentView.swift; sourceTree = "<group>"; };
+		AD61B1362B7DD990001E1876 /* EditableListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListViewModel.swift; sourceTree = "<group>"; };
 		AD7516AC2B4D1D4D00F83081 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		AD7516AE2B4D1E3500F83081 /* EndTickerAlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndTickerAlertButton.swift; sourceTree = "<group>"; };
 		AD7516B02B4D202600F83081 /* AlertTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTestView.swift; sourceTree = "<group>"; };
@@ -555,6 +561,16 @@
 			path = BasicTest;
 			sourceTree = "<group>";
 		};
+		AD61B1352B7DD977001E1876 /* EditableList */ = {
+			isa = PBXGroup;
+			children = (
+				AD61B1332B7DD61C001E1876 /* EditableListContentView.swift */,
+				AD61B1312B7DD60A001E1876 /* EditableListView.swift */,
+				AD61B1362B7DD990001E1876 /* EditableListViewModel.swift */,
+			);
+			path = EditableList;
+			sourceTree = "<group>";
+		};
 		AD7516B22B4D23C500F83081 /* CustomAlert */ = {
 			isa = PBXGroup;
 			children = (
@@ -868,6 +884,7 @@
 				499BD3D92B7A0A8D0056A741 /* DropDowZStack */,
 				499BD3E02B7AF5500056A741 /* MyDropDown */,
 				499BD3EB2B7C5A5F0056A741 /* BlendMode */,
+				AD61B1352B7DD977001E1876 /* EditableList */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1166,6 +1183,7 @@
 				AD79C47A2B59EA51007ED45D /* ScaleAnimationView.swift in Sources */,
 				AD79C5512B69CB3F007ED45D /* StockModel.swift in Sources */,
 				AD79C4932B5A5396007ED45D /* ExpandableView.swift in Sources */,
+				AD61B1372B7DD990001E1876 /* EditableListViewModel.swift in Sources */,
 				AD7516BB2B4E1BA400F83081 /* CurrencyView.swift in Sources */,
 				49A771632B668E2D0093EDCA /* Toast.swift in Sources */,
 				AD9F7A162B26DD700082A296 /* OptionalViewModel.swift in Sources */,
@@ -1264,6 +1282,7 @@
 				AD9590F22B2936EA0028EC34 /* TextWithImageButton.swift in Sources */,
 				49A771782B672F7D0093EDCA /* AnimationSymbolMainView.swift in Sources */,
 				AD9590F82B2937EE0028EC34 /* CaptionIconButton.swift in Sources */,
+				AD61B1322B7DD60A001E1876 /* EditableListView.swift in Sources */,
 				AD75178C2B54AE4B00F83081 /* SideHamburgerView.swift in Sources */,
 				AD7516B82B4E180200F83081 /* Extension+VerticalAlignment.swift in Sources */,
 				AD7516C82B4E8C7300F83081 /* KeyboardView.swift in Sources */,
@@ -1279,6 +1298,7 @@
 				AD75178F2B54AE7400F83081 /* SideView.swift in Sources */,
 				AD52D1A62B706A76008FDEB6 /* TextAnimationView.swift in Sources */,
 				AD52D1A92B706B21008FDEB6 /* AnimatableCustomFontModifier.swift in Sources */,
+				AD61B1342B7DD61C001E1876 /* EditableListContentView.swift in Sources */,
 				AD79C5442B69C753007ED45D /* OptionsView.swift in Sources */,
 				AD7517912B54AFB800F83081 /* SideMenuContentView.swift in Sources */,
 				AD52D1A42B7063EE008FDEB6 /* HeroContentView.swift in Sources */,
