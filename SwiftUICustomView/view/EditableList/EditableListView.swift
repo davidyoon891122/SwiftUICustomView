@@ -16,15 +16,23 @@ struct EditableListView<Model>: View where Model: EditableListViewModelProtocol 
     }
     
     var body: some View {
-        List {
-            ForEach(viewModel.menus, id: \.self) {
-                Text($0)
+        VStack {
+            List {
+                ForEach(viewModel.menus.indices, id:\.self) { index in
+                    
+                    TextField("Title", text: $viewModel.editableMenus[index])
+                }
+                .onDelete(perform: viewModel.onDelete)
+                .onMove(perform: viewModel.onMove)
             }
-            .onDelete(perform: viewModel.onDelete)
-            .onMove(perform: viewModel.onMove)
+            Spacer()
+            Button(action: {
+                // TODO: - Copy the editableMenus to the menus
+                self.viewModel.commitChanges()
+            }, label: {
+                Text("Commit")
+            })
         }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("Hey")
         .onAppear {
             viewModel.loadMenus()
         }
